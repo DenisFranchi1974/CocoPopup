@@ -97,6 +97,18 @@ The full source code is available on [GitHub Repository](https://github.com/Deni
 
 == Screenshots ==
 
+1.  Create a Popup
+2.  Set the conditions
+3.  Customize the style and location
+4.  Set an animation and body background
+5.  Popup finished!
+6.  Popup finished!
+7.  Popup finished!
+8.  Popup finished!
+9.  Report Popup
+10. Charts Popup
+11. Charts Popup
+12. Charts Popup
 
 == Frequently Asked Questions ==
 
