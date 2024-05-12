@@ -1,0 +1,517 @@
+.cocopopup-svg-block img{
+    max-width: 24px;
+}
+.cocopopup.editor {
+    position: relative!important;
+    display: block; /* Il popup è nascosto per impostazione predefinita */
+    top: auto!important;
+    left: auto!important;
+    transform: none!important;
+    z-index: 0!important;
+}
+.cocopopup.is-selected{
+    border: none;
+}
+.cocopopup-editor-content{
+    width: 100%;
+    height: 100px;
+    border: 1px dashed #ccc;
+    background-color: azure;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.bouncePopup{
+        animation-name: bouncePopup; 
+        animation-duration: var(--duration-animation-popup-editor); 
+        animation-fill-mode: both; 
+    }
+    &.shake{
+        animation-name: shakePopup;
+    }
+    &.shake,&.wobblePopup,&.flipInPopup,&.slideBottom,&.slideTop,&.slideRight,&.slideLeft,&.fadeInPopup{
+        animation-duration: var(--duration-animation-popup-editor); /* Durata dell'animazione */
+        animation-timing-function: ease-in-out; 
+    }
+    &.slideLeft{
+        animation-name: slidePopup;
+    }
+    // Swing
+    &.swingPopup{
+        animation: swingPopup var(--duration-animation-popup-editor) ease-in-out 2 alternate forwards;
+    }
+    // Flash
+    &.flashPopup{
+        animation: flashPopup var(--duration-animation-popup-editor) alternate;
+    }
+    // Bounce Right
+    &.bounceInRightPopup{
+        -webkit-animation-name: bounceInRightPopup;
+        animation-name: bounceInRightPopup;
+        -webkit-animation-duration:var(--duration-animation-popup-editor);
+        animation-duration: var(--duration-animation-popup-editor);
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    // Bounce In Left
+    &.bounceInLeftPopup{
+        -webkit-animation-name: bounceInLeftPopup;
+        animation-name: bounceInLeftPopup;
+        -webkit-animation-duration: var(--duration-animation-popup-editor); 
+        animation-duration: var(--duration-animation-popup-editor); 
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both; 
+        }
+    // Tada
+    &.tadaPopup{
+        -webkit-animation-duration: var(--duration-animation-popup-editor);
+        animation-duration: var(--duration-animation-popup-editor); 
+        -webkit-animation-fill-mode: both; 
+        animation-fill-mode: both; 
+        -webkit-animation-name: tadaPopup; 
+        animation-name: tadaPopup; 
+    }
+    // Jello
+    &.jelloPopup{
+        animation: jelloPopup var(--duration-animation-popup-editor) ease-in-out;
+    }
+    // Rotate
+    &.rotatePopup{
+        animation: rotatePopup var(--duration-animation-popup-editor) linear;
+    }
+    // Pulse
+    &.pulsePopup{
+        animation: pulsePopup var(--duration-animation-popup-editor) ease-in-out;
+    }
+    &.slideRight{
+        animation-name: slidePopupRight;
+    }
+    &.slideTop{
+        animation-name: slidePopupTop;
+    }
+    &.slideBottom{
+        animation-name: slidePopupBottom;
+    }
+    &.fadeInPopup{
+        animation-name: fadeInPopupTopLeft;
+    }
+    &.flipInPopup{
+        animation-name: flipInPopup;
+    }
+    &.wobblePopup{
+        animation-name: wobblePopup;
+    }
+}
+@keyframes bouncePopup { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform:  translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+}
+@keyframes shakePopup {
+    0% {
+        transform: translate(5px, 0);
+    }
+    25% {
+        transform: translate(10px, 0);
+    }
+    50% {
+        transform: translate(-15px, 0);
+    }
+    75% {
+        transform: translate(-10px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+/* Slide */
+@keyframes slidePopup {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+@keyframes slidePopupRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+@keyframes slidePopupTop {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+@keyframes slidePopupBottom {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+/* Fade In */
+@keyframes fadeInPopupTopLeft {
+    from { opacity: 0; transform: scale(0.9) ; }
+    to { opacity: 1; transform: scale(1)  ; }
+}
+/* FILP */
+@keyframes flipInPopup {
+    from {
+        transform: perspective(300px) rotateY(0);
+    }
+    50% {
+        transform: perspective(300px) rotateY(180deg) ;
+    }
+    to {
+        transform: perspective(300px) rotateY(0) ;
+    }
+}
+/* Wobble */
+@keyframes wobblePopup {
+    0% {
+        transform: translateX(0%) ;
+    }
+    15% {
+        transform: translateX(-25%) rotate(-5deg) ;
+    }
+    30% {
+        transform: translateX(20%) rotate(3deg) ;
+    }
+    45% {
+        transform: translateX(-15%) rotate(-3deg) ;
+    }
+    60% {
+        transform: translateX(10%) rotate(2deg) ;
+    }
+    75% {
+        transform: translateX(-5%) rotate(-1deg) ;
+    }
+    100% {
+        transform: translateX(0%) ;
+    }
+}
+/* Swing */
+@keyframes swingPopup {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(6deg); }
+    75% { transform: rotate(-6deg); }
+}
+/* Flash */
+@keyframes flashPopup {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    } 
+}
+/* Bounce Right */
+@keyframes bounceInRightPopup {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(-30px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform:translateX(0);
+    }
+}
+/* Bounce In Left */
+@keyframes bounceInLeftPopup {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/* Tada */
+@keyframes tadaPopup { 
+    0% {transform: scale(1);} 
+    10%, 20% {transform: scale(0.9) rotate(-3deg);} 
+    30%, 50%, 70%, 90% {transform:  scale(1.1) rotate(3deg);} 
+    40%, 60%, 80% {transform:  scale(1.1) rotate(-3deg);} 
+    100% {transform: scale(1) rotate(0);}
+ }
+/* Jello */
+@keyframes jelloPopup {
+    0% {
+        transform: scale(1) ;
+    }
+    30% {
+        transform:scale(1.25) rotate(-10deg);
+    }
+    50% {
+        transform: scale(0.75) rotate(10deg) ;
+    }
+    70% {
+        transform: scale(1.15) rotate(-5deg) ;
+    }
+    100% {
+        transform: scale(1) rotate(0) ;
+    }
+}
+/* Rotate */
+@keyframes rotatePopup {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Pulse */
+@keyframes pulsePopup {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1) ;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* Content Popup Ispectorcontrol */
+.cocopopup-editor-popup-content{
+    border: 1px dashed #ccc;
+    padding: 10px 15px 20px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: azure;
+        & h2{
+            text-align: center;
+            font-size: 18px;
+            color: #424242;
+            border-bottom: 1px solid #424242;
+            padding-bottom: 10px;
+            margin-bottom: 16px;
+     }
+}
+.cocopopup-editor-popup-content.class-schedule{
+    animation-name: pulseSchedule;
+    animation-duration: 2s; /* Puoi regolare la velocità dell'animazione qui */
+    animation-iteration-count: infinite; /* Per farlo ripetere all'infinito */
+    animation-timing-function: ease-in-out;
+}
+@keyframes pulseSchedule {
+    0% {
+       transform: scale(1);
+       box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+    }
+    50% {
+       transform: scale(1);
+       box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+    100% {
+       transform: scale(1);
+       box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+    }
+}
+ 
+/* Mult Toogle */
+.cocopopup-multitoggle{
+    border: 1px solid #e6e7e9;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+ /* Audio */
+.cocopopup-content-audio{
+    display: flex;
+    justify-content: space-around;
+        button{
+            border: 2px solid #007cba;
+            border-radius: 4px;
+            padding: 0px 28px;
+        }
+        & .volume-lines{
+            margin-top: -5px;
+            margin-left: -10px;
+        }
+}
+/* Notice */
+.cocopopup-extra-notice.components-notice{
+    margin-left: 0!important;
+    width: 100%!important;
+    margin-bottom: 20px!important;
+    background: #daf3ff;
+}
+/* Separator */
+.cocopopup-sep-editor{
+    border-top: 1px solid #e6e7e9;
+    margin: 24px -16px;
+}
+/* Separator without margin */
+.cocopopup-sep-editor-no-margin{
+    border-top: 1px solid #e6e7e9;
+    margin: 0 -16px;
+}
+.cocopopup-sep-editor{
+    border-top: 1px solid #e6e7e9;
+    margin: 16px -16px;
+}
+/* Panel Header */
+.cocopopup-panel-header{
+    & .components-panel__header{
+        justify-content: center;
+        background-color: #f0f0f0;
+            & h2{
+                margin: 0;
+            }
+    }  
+}
+/* Tab Panel */
+.cocopopup-extra-tab {
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    & .components-tab-panel__tabs{
+        gap: 31px;
+    }
+    & .svg-rotate.content{
+        transform: rotate(90deg);
+        width: 18px;
+        height: 18px;
+    }
+    & .active-tab{
+        border-bottom:2px solid color(srgb 0.001 0.486 0.7294);
+        width:73px;
+    }
+    & button.components-tab-panel__tabs-item{
+        width: 73px;
+    }
+}
+/* Tab Panel General */
+.cocopopup-extra-tab-general {
+    border-top: 1px solid #e0e0e0;
+    & .components-tab-panel__tabs{
+        display: flex;
+        justify-content: space-between;
+        background-color: #f0f0f0ff;
+        & .active-tab{
+            background-color: #FFFFFF;
+        }
+    }
+    & .svg-rotate.content{
+        transform: rotate(90deg);
+        width: 18px;
+        height: 18px;
+    }
+    & .active-tab{
+        border-bottom:2px solid color(srgb 0.001 0.486 0.7294);
+        width:73px;
+    }
+    & button.components-tab-panel__tabs-item{
+        width: 73px;
+    }
+}
+.cocopopup-extra-tab-1{
+	display: none;
+	&.tab1{
+		display: block;
+	}
+}
+.cocopopup-extra-tab-2{
+	display: none;
+	&.tab2{
+		display: block;
+	}
+}
+.cocopopup-extra-tab-3{
+	display: none;
+	&.tab3{
+		display: block;
+	}
+}
+.components-panel__body label{
+    text-transform: none!important;
+    font-size: 13px!important;
+    font-weight: 400!important;
+}
+/* Date */ 
+.components-datetime__time-field-day{
+    margin-bottom: 8px!important;
+}
+.components-datetime__time-field.components-datetime__time-field-time{
+    display: -webkit-box!important;
+}
+.components-datetime__date div {
+    column-gap: calc(2px)!important;
+}
+/* Range */
+.components-range-control .components-input-control__container{
+    width: 100%!important;
+}
+/* Pro version */
+.payment-only-control {
+    position: relative;
+}
+.payment-only-message {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 12px;
+    color: #999;
+    opacity: 0.5; /* Opacità minore */
+}
+/* Contdown round */
+.part.seconds{
+    border: 1px solid red;
+    border-radius: 100%;
+}
+/* Upload Image */
+.content-select-image{
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    & .button-add-image{
+        color: #fff;
+        background-color: #007cba;
+    }
+    & .button-add-image:hover{
+        color: #fff;
+    }
+    & .image-remove{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+/* Pro versione */
+.cocopopup-pro-version-a{
+    text-decoration: none;
+}
+.cocopopup-pupup-pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    & svg{
+        width: 50px;
+        height: 50px;
+        fill:#007cba;
+    }
+    & p{
+        margin: auto!important;
+        font-size: 16px;
+        font-weight: bold;
+        color: #007cba;
+    }
+}
+.cocopopup-pupup-pro:hover svg {
+    animation: swing 0.5s ease-in-out;
+}
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    50% { transform: rotate(-3deg); }
+    75% { transform: rotate(3deg); }
+    100% { transform: rotate(0deg); }
+}
