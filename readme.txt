@@ -4,7 +4,7 @@ Author: Franchi Web Design
 Author URI: https://franchiwebdesign.com/
 Plugin URI: https://www.wpcocoblock.com/popup/
 Donate link: https://www.wpcocoblock.com/popup/
-Tags: popup, wordpress popup, exit popup, attention grabber, sale booster, cocopopup
+Tags: popup, wordpress popup, exit popup, attention grabber, sale booster, cocopopup, block popup
 Requires at least: 4.2
 Tested up to: 6.5
 Requires PHP: 5.3.3
