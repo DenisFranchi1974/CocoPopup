@@ -1,10 +1,10 @@
 === CocoPopup - Craft Engaging Popups for Enhanced Marketing Reach. ===
-Contributors: Franchi Web Design
+Contributors: franchidesign
 Author: Franchi Web Design
 Author URI: https://franchiwebdesign.com/
 Plugin URI: https://www.wpcocoblock.com/popup/
 Donate link: https://www.wpcocoblock.com/popup/
-Tags: popup, wordpress popup, exit popup, attention grabber, sale booster, cocopopup, block popup
+Tags: popup, wordpress popup, exit popup, block popup, sale booster
 Requires at least: 4.2
 Tested up to: 6.5
 Requires PHP: 5.3.3
@@ -22,7 +22,7 @@ From captivating opt-in forms to attention-grabbing promotional messages, our pl
 With intuitive customization options and advanced targeting features, CocoPopup empowers you to deliver the right message to the right audience at the right time. 
 Elevate your website's performance and drive measurable results with CocoPopup today!
 
-https://youtu.be/P8S-7SbN4CQ
+https://youtu.be/djDhaAyWUJ0
 
 **FULLY CUSTOMIZABLE DESIGN AND LOOK **
 
