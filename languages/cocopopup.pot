@@ -1,0 +1,3564 @@
+# Copyright (C) 2024 Franchi Web Design
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CocoPopup 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cocopopup\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-15T08:19:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: cocopopup\n"
+
+#. Plugin Name of the plugin
+#: cocopopup.php
+#: cocopopup.php:49
+#: cocopopup.php:172
+#: cocopopup.php:173
+#: extensions/extensions.php:32
+#: popup-information-content.php:55
+msgid "CocoPopup"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: cocopopup.php
+msgid "https://www.wpcocoblock.com/popup/"
+msgstr ""
+
+#. Description of the plugin
+#: cocopopup.php
+msgid "Elevate user engagement and drive conversions with CocoPopup  – the ultimate WordPress plugin for creating stunning and effective popups. With intuitive customization and advanced targeting, CocoPopup helps you deliver the perfect message to your audience, boosting your website's performance effortlessly."
+msgstr ""
+
+#. Author of the plugin
+#: cocopopup.php
+msgid "Franchi Web Design"
+msgstr ""
+
+#. Author URI of the plugin
+#: cocopopup.php
+msgid "https://franchiwebdesign.com/"
+msgstr ""
+
+#: cocopopup.php:115
+msgid "The popup closure count has been reset successfully for the popup with ID: "
+msgstr ""
+
+#: cocopopup.php:116
+msgid "An error occurred while resetting the popup closure count."
+msgstr ""
+
+#: cocopopup.php:187
+#: cocopopup.php:188
+#: extensions/extensions.php:56
+#: popup-information-content.php:86
+msgid "Extensions"
+msgstr ""
+
+#: cocopopup.php:303
+msgid "success"
+msgstr ""
+
+#: cocopopup.php:306
+msgid "error"
+msgstr ""
+
+#: cocopopup.php:332
+#: cocopopup.php:359
+msgid "Error: Popup ID not provided."
+msgstr ""
+
+#: extensions/extensions.php:9
+#: popup-information-content.php:18
+msgid "Hi"
+msgstr ""
+
+#: extensions/extensions.php:15
+#: popup-information-content.php:24
+msgid " Admin"
+msgstr ""
+
+#: extensions/extensions.php:17
+#: popup-information-content.php:27
+msgid "I am your personal assistant."
+msgstr ""
+
+#: extensions/extensions.php:35
+#: popup-information-content.php:60
+msgid "V 1.0.3"
+msgstr ""
+
+#: extensions/extensions.php:41
+#: popup-information-content.php:66
+msgid "CocoPopup assistance"
+msgstr ""
+
+#: extensions/extensions.php:50
+msgid "Here you'll find all our extensions to customize your popup to the maximum. Additionally, if you have specific requirements, we can provide you with a free consultation along with a quote to meet your needs!"
+msgstr ""
+
+#: extensions/extensions.php:57
+msgid "Explore our collection of powerful extensions designed to enhance your experience with our plugin. From advanced customization options to seamless integrations, our extensions offer a wide range of features to help you tailor your website to your unique needs."
+msgstr ""
+
+#: extensions/extensions.php:71
+msgid "Scroll Triggered Popup"
+msgstr ""
+
+#: extensions/extensions.php:72
+msgid "Engage visitors with captivating popups triggered as they scroll through your website."
+msgstr ""
+
+#: extensions/extensions.php:75
+#: extensions/extensions.php:114
+#: extensions/extensions.php:160
+#: extensions/extensions.php:203
+#: extensions/extensions.php:240
+#: extensions/extensions.php:277
+#: extensions/extensions.php:313
+#: extensions/extensions.php:346
+#: extensions/extensions.php:391
+#: extensions/extensions.php:428
+#: extensions/extensions.php:473
+#: extensions/extensions.php:510
+#: extensions/extensions.php:550
+msgid "Buy Now"
+msgstr ""
+
+#: extensions/extensions.php:80
+#: extensions/extensions.php:119
+#: extensions/extensions.php:165
+#: extensions/extensions.php:208
+#: extensions/extensions.php:245
+#: extensions/extensions.php:282
+#: extensions/extensions.php:318
+#: extensions/extensions.php:351
+#: extensions/extensions.php:396
+#: extensions/extensions.php:433
+#: extensions/extensions.php:478
+#: extensions/extensions.php:515
+#: extensions/extensions.php:555
+msgid "More Details"
+msgstr ""
+
+#: extensions/extensions.php:82
+msgid "Page Position Half"
+msgstr ""
+
+#: extensions/extensions.php:84
+msgid "Page Position 3/4"
+msgstr ""
+
+#: extensions/extensions.php:86
+msgid "Page Position End"
+msgstr ""
+
+#: extensions/extensions.php:88
+msgid "Page Position Percentage"
+msgstr ""
+
+#: extensions/extensions.php:90
+msgid "Scroll direction"
+msgstr ""
+
+#: extensions/extensions.php:92
+#: extensions/extensions.php:135
+#: extensions/extensions.php:181
+#: extensions/extensions.php:218
+#: extensions/extensions.php:255
+#: extensions/extensions.php:288
+#: extensions/extensions.php:324
+#: extensions/extensions.php:369
+#: extensions/extensions.php:406
+#: extensions/extensions.php:451
+#: extensions/extensions.php:488
+#: extensions/extensions.php:531
+#: extensions/extensions.php:559
+msgid "See Less"
+msgstr ""
+
+#: extensions/extensions.php:110
+msgid "Countdown Popup"
+msgstr ""
+
+#: extensions/extensions.php:111
+msgid "Engage visitors with customizable Countdown Popup. Build urgency without being intrusive."
+msgstr ""
+
+#: extensions/extensions.php:121
+msgid "Countdown of seconds only"
+msgstr ""
+
+#: extensions/extensions.php:123
+msgid "Different styles of countdowns"
+msgstr ""
+
+#: extensions/extensions.php:125
+#: extensions/extensions.php:175
+msgid "Highly customizable"
+msgstr ""
+
+#: extensions/extensions.php:127
+msgid "Site under maintenance function"
+msgstr ""
+
+#: extensions/extensions.php:129
+msgid "Image/Background blackout filter"
+msgstr ""
+
+#: extensions/extensions.php:131
+msgid "Advertising function"
+msgstr ""
+
+#: extensions/extensions.php:133
+#: extensions/extensions.php:179
+msgid "Overlay Filter Popup Extension included"
+msgstr ""
+
+#: extensions/extensions.php:152
+#: pattern/library/popup/popup-6.php:44
+msgid "+"
+msgstr ""
+
+#: extensions/extensions.php:156
+msgid "Age Restriction Popup"
+msgstr ""
+
+#: extensions/extensions.php:157
+msgid "Custmizable Age Restriction Popup ensures secure access, ideal for websites with age-restricted content."
+msgstr ""
+
+#: extensions/extensions.php:167
+msgid "Closing delay"
+msgstr ""
+
+#: extensions/extensions.php:169
+msgid "Customizable welcome message"
+msgstr ""
+
+#: extensions/extensions.php:171
+msgid "Site filter"
+msgstr ""
+
+#: extensions/extensions.php:173
+msgid "Website background image"
+msgstr ""
+
+#: extensions/extensions.php:177
+msgid "Forms in different languages"
+msgstr ""
+
+#: extensions/extensions.php:199
+msgid "Woocommerce Popup"
+msgstr ""
+
+#: extensions/extensions.php:200
+msgid "Efficiently showcase tailored content based on your customers' shopping behavior with our WooCommerce extension. "
+msgstr ""
+
+#: extensions/extensions.php:210
+#: build/index.js:6358
+#: src/edit.js:2238
+#: build/index.js:5815
+msgid "Empty Cart"
+msgstr ""
+
+#: extensions/extensions.php:212
+#: build/index.js:6367
+#: src/edit.js:2245
+#: build/index.js:5822
+msgid "Number of Products in the Cart"
+msgstr ""
+
+#: extensions/extensions.php:214
+#: build/index.js:6383
+#: src/edit.js:2262
+#: build/index.js:5839
+msgid "Specific Product in Cart"
+msgstr ""
+
+#: extensions/extensions.php:216
+#: build/index.js:6405
+#: src/edit.js:2288
+#: build/index.js:5865
+msgid "Total Amount in Cart"
+msgstr ""
+
+#: extensions/extensions.php:236
+msgid "Button Adder Popup"
+msgstr ""
+
+#: extensions/extensions.php:237
+msgid "Enhance popup functionality with a customizable second button for redirections and actions, enabling diverse user responses."
+msgstr ""
+
+#: extensions/extensions.php:247
+msgid "Link addressing"
+msgstr ""
+
+#: extensions/extensions.php:249
+msgid "Opening in a new window"
+msgstr ""
+
+#: extensions/extensions.php:251
+msgid "Customizable text"
+msgstr ""
+
+#: extensions/extensions.php:253
+#: extensions/extensions.php:286
+#: extensions/extensions.php:322
+#: extensions/extensions.php:367
+#: extensions/extensions.php:404
+#: extensions/extensions.php:449
+#: extensions/extensions.php:486
+msgid "Highly customizable style"
+msgstr ""
+
+#: extensions/extensions.php:273
+msgid "Exit Intent Popup"
+msgstr ""
+
+#: extensions/extensions.php:274
+msgid "Engage exiting visitors, converting exits into subscriptions, sales, and more with Exit Intent extension."
+msgstr ""
+
+#: extensions/extensions.php:284
+#: extensions/extensions.php:320
+msgid "Setting Delay"
+msgstr ""
+
+#: extensions/extensions.php:309
+msgid "Inactivity Event Popup"
+msgstr ""
+
+#: extensions/extensions.php:310
+msgid "Prompt actions from inactive users with Inactivity Event, increasing engagement and conversions effectively."
+msgstr ""
+
+#: extensions/extensions.php:342
+msgid "Advanced Targeting Popup"
+msgstr ""
+
+#: extensions/extensions.php:343
+msgid "Refine popup targeting with Advanced Targeting extension, tailoring popups based on diverse conditions."
+msgstr ""
+
+#: extensions/extensions.php:353
+#: build/index.js:5770
+#: src/edit.js:1603
+#: build/index.js:5180
+msgid "Number of Visits"
+msgstr ""
+
+#: extensions/extensions.php:355
+#: build/index.js:5802
+#: src/edit.js:1642
+#: build/index.js:5219
+msgid "Specific URL"
+msgstr ""
+
+#: extensions/extensions.php:357
+#: build/index.js:5845
+#: src/edit.js:1689
+#: build/index.js:5266
+msgid "External Link"
+msgstr ""
+
+#: extensions/extensions.php:359
+#: build/index.js:5873
+#: src/edit.js:1717
+#: build/index.js:5294
+msgid "Logged-in User"
+msgstr ""
+
+#: extensions/extensions.php:361
+#: build/index.js:5901
+#: src/edit.js:1745
+#: build/index.js:5322
+msgid "Language"
+msgstr ""
+
+#: extensions/extensions.php:363
+#: build/index.js:5931
+#: src/edit.js:1777
+#: build/index.js:5354
+msgid "Operating System"
+msgstr ""
+
+#: extensions/extensions.php:365
+#: build/index.js:5968
+#: src/edit.js:1814
+#: build/index.js:5391
+msgid "Browser"
+msgstr ""
+
+#: extensions/extensions.php:387
+msgid "Schedule Popup"
+msgstr ""
+
+#: extensions/extensions.php:388
+msgid "Strategically showcase scheduled popups daily, maximizing engagement with tailored offers for diverse audiences."
+msgstr ""
+
+#: extensions/extensions.php:398
+msgid "Start date"
+msgstr ""
+
+#: extensions/extensions.php:400
+#: build/index.js:5152
+#: build/index.js:5185
+#: src/edit.js:983
+#: src/edit.js:992
+#: build/index.js:4560
+#: build/index.js:4569
+msgid "Time"
+msgstr ""
+
+#: extensions/extensions.php:402
+msgid "End date"
+msgstr ""
+
+#: extensions/extensions.php:424
+msgid "Advanced Closing Popup"
+msgstr ""
+
+#: extensions/extensions.php:425
+msgid "Complete control of popups to ensure visitor interaction."
+msgstr ""
+
+#: extensions/extensions.php:435
+#: build/index.js:5140
+#: build/index.js:5170
+#: build/index.js:6538
+#: build/index.js:6728
+#: build/index.js:6951
+#: src/edit.js:980
+#: src/edit.js:989
+#: src/edit.js:2399
+#: src/edit.js:2558
+#: src/edit.js:2750
+#: build/index.js:4557
+#: build/index.js:4566
+#: build/index.js:5976
+#: build/index.js:6135
+#: build/index.js:6327
+msgid "Opacity"
+msgstr ""
+
+#: extensions/extensions.php:437
+#: build/index.js:5144
+#: build/index.js:5175
+#: src/edit.js:981
+#: src/edit.js:990
+#: build/index.js:4558
+#: build/index.js:4567
+msgid "Click on the window"
+msgstr ""
+
+#: extensions/extensions.php:439
+#: build/index.js:5148
+#: build/index.js:5180
+#: src/edit.js:982
+#: src/edit.js:991
+#: build/index.js:4559
+#: build/index.js:4568
+msgid "Scroll"
+msgstr ""
+
+#: extensions/extensions.php:441
+msgid "Automatic Time"
+msgstr ""
+
+#: extensions/extensions.php:443
+#: build/index.js:5156
+#: build/index.js:5190
+#: src/edit.js:984
+#: src/edit.js:993
+#: build/index.js:4561
+#: build/index.js:4570
+msgid "Blocked"
+msgstr ""
+
+#: extensions/extensions.php:445
+msgid "Class"
+msgstr ""
+
+#: extensions/extensions.php:447
+#: build/index.js:5164
+#: build/index.js:5200
+#: src/edit.js:986
+#: src/edit.js:995
+#: build/index.js:4563
+#: build/index.js:4572
+msgid "Redirect"
+msgstr ""
+
+#: extensions/extensions.php:469
+msgid "Overlay Filter Popup"
+msgstr ""
+
+#: extensions/extensions.php:470
+msgid "Enhance  CocoPopups with Overlay Filter, highlighting popups with customizable transparent or opaque background."
+msgstr ""
+
+#: extensions/extensions.php:480
+#: build/index.js:7711
+#: src/edit.js:3464
+#: build/index.js:7041
+msgid "Create an overlay filter"
+msgstr ""
+
+#: extensions/extensions.php:482
+msgid "Blur Filter"
+msgstr ""
+
+#: extensions/extensions.php:484
+#: build/index.js:7759
+#: src/edit.js:3517
+#: build/index.js:7094
+msgid "Background image"
+msgstr ""
+
+#: extensions/extensions.php:506
+msgid "Analytics Popup"
+msgstr ""
+
+#: extensions/extensions.php:507
+msgid "Track popup performance and analyze customer behavior with Analytics."
+msgstr ""
+
+#: extensions/extensions.php:517
+msgid "Interactive charts"
+msgstr ""
+
+#: extensions/extensions.php:519
+msgid "List of best Popups"
+msgstr ""
+
+#: extensions/extensions.php:521
+#: popup-information-content.php:121
+msgid "Interactions"
+msgstr ""
+
+#: extensions/extensions.php:523
+msgid "Visualisations"
+msgstr ""
+
+#: extensions/extensions.php:525
+msgid "Closures"
+msgstr ""
+
+#: extensions/extensions.php:527
+msgid "Different types of charts"
+msgstr ""
+
+#: extensions/extensions.php:529
+msgid "Exports to csv"
+msgstr ""
+
+#: extensions/extensions.php:546
+msgid "Custom Popup"
+msgstr ""
+
+#: extensions/extensions.php:547
+msgid "Tailor your popups with Custom Popup to meet your unique needs."
+msgstr ""
+
+#: extensions/extensions.php:557
+msgid "Custom Popup offers flexibility to fully tailor your popups to fit your website's specific requirements. Through in-depth consultation, we create custom popup display conditions, ensuring it activates at strategic moments to engage your visitors effectively. Whether showcasing special offers, promoting events, or capturing leads, the possibilities are endless with Custom Popup."
+msgstr ""
+
+#: extensions/extensions.php:567
+msgid "Previous"
+msgstr ""
+
+#: extensions/extensions.php:568
+msgid "Next"
+msgstr ""
+
+#: pattern/library/popup/popup-1.php:24
+msgid "Success"
+msgstr ""
+
+#: pattern/library/popup/popup-1.php:28
+msgid "Congratulation on your appointment successfully!"
+msgstr ""
+
+#: pattern/library/popup/popup-1.php:33
+msgid "Done"
+msgstr ""
+
+#: pattern/library/popup/popup-1.php:45
+#: pattern/library/popup/popup-1.php:46
+msgid "Popup 1"
+msgstr ""
+
+#: pattern/library/popup/popup-2.php:24
+msgid "Verification"
+msgstr ""
+
+#: pattern/library/popup/popup-2.php:28
+msgid "Your information in the audit, please wait!"
+msgstr ""
+
+#: pattern/library/popup/popup-2.php:33
+msgid "Ok"
+msgstr ""
+
+#: pattern/library/popup/popup-2.php:45
+msgid "Popup 2"
+msgstr ""
+
+#: pattern/library/popup/popup-2.php:46
+#: pattern/library/popup/popup-3.php:45
+#: pattern/library/popup/popup-4.php:44
+msgid "Popup Verification"
+msgstr ""
+
+#: pattern/library/popup/popup-3.php:23
+msgid "Thank you!"
+msgstr ""
+
+#: pattern/library/popup/popup-3.php:27
+msgid "We have received your upgrade request. We will reach out to you soon!"
+msgstr ""
+
+#: pattern/library/popup/popup-3.php:32
+#: build/index.js:2535
+#: src/components/avatarPopup.js:40
+#: build/index.js:2143
+msgid "Close"
+msgstr ""
+
+#: pattern/library/popup/popup-3.php:44
+msgid "Popup 3"
+msgstr ""
+
+#: pattern/library/popup/popup-4.php:23
+msgid "Don&rsquo;t miss out!"
+msgstr ""
+
+#: pattern/library/popup/popup-4.php:27
+msgid "Sign up for our newsletter to stay in the loop."
+msgstr ""
+
+#: pattern/library/popup/popup-4.php:32
+msgid "Subscribe"
+msgstr ""
+
+#: pattern/library/popup/popup-4.php:43
+msgid "Popup 4"
+msgstr ""
+
+#: pattern/library/popup/popup-5.php:18
+msgid "GET 15% OFF"
+msgstr ""
+
+#: pattern/library/popup/popup-5.php:25
+msgid "Use this code at checkout, valid for 10 days:"
+msgstr ""
+
+#: pattern/library/popup/popup-5.php:30
+msgid "FIRST15"
+msgstr ""
+
+#: pattern/library/popup/popup-5.php:35
+msgid "CONTINUE SHOPPING"
+msgstr ""
+
+#: pattern/library/popup/popup-5.php:46
+msgid "Popup Five"
+msgstr ""
+
+#: pattern/library/popup/popup-5.php:47
+#: pattern/library/popup/popup-6.php:63
+msgid "Popup Sale"
+msgstr ""
+
+#: pattern/library/popup/popup-6.php:26
+msgid "Get 20% OFF on your first order"
+msgstr ""
+
+#: pattern/library/popup/popup-6.php:30
+msgid "+ Free shipping &amp; Returns"
+msgstr ""
+
+#: pattern/library/popup/popup-6.php:39
+msgid "Enter Your Email Address"
+msgstr ""
+
+#: pattern/library/popup/popup-6.php:50
+msgid "By entering your email, you agree to our Term &amp; Conditions and Privacy Policy, including emails and promotions. You can unsubscribe at any time."
+msgstr ""
+
+#: pattern/library/popup/popup-6.php:62
+msgid "Popup 6"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:28
+msgid "Popup push"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:28
+msgid "promo web banners template"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:32
+msgid "Lorem ipsum dolor sit amen, consectetur adipiscing elit, sed do eiusmod tempor"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:36
+msgid "x"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:36
+msgid "Accept our Privacy Policy"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:41
+#: build/index.js:5494
+#: build/index.js:6157
+#: build/index.js:6547
+#: build/index.js:7682
+#: src/edit.js:1317
+#: src/edit.js:2031
+#: src/edit.js:2408
+#: src/edit.js:3429
+#: build/index.js:4894
+#: build/index.js:5608
+#: build/index.js:5985
+#: build/index.js:7006
+msgid "Button"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:54
+msgid "Popup 7"
+msgstr ""
+
+#: pattern/library/popup/popup-7.php:55
+#: pattern/library/popup/popup-8.php:66
+#: pattern/library/popup/popup-9.php:40
+#: pattern/library/popup/popup-10.php:50
+#: pattern/library/popup/popup-11.php:100
+#: pattern/pattern.php:13
+#: build/index.js:7673
+#: src/edit.js:3420
+#: build/index.js:6997
+msgid "Popup"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:19
+msgid "HOLIDAY EVENT"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:23
+msgid "SUMMER"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:27
+msgid "SALE"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:31
+msgid "Lorem ipsum dolor sit amen, te bonorum blandito pri, assume utinam passim eu."
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:36
+#: pattern/library/popup/popup-8.php:44
+msgid "2"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:40
+msgid "0"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:48
+msgid "4"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:54
+msgid "VIEW DETAILS"
+msgstr ""
+
+#: pattern/library/popup/popup-8.php:65
+msgid "Popup 8"
+msgstr ""
+
+#: pattern/library/popup/popup-9.php:19
+msgid "Stay with Us!"
+msgstr ""
+
+#: pattern/library/popup/popup-9.php:23
+msgid "Subscribe to us and get the lates news."
+msgstr ""
+
+#: pattern/library/popup/popup-9.php:28
+msgid "ENTER YOUR MAIL"
+msgstr ""
+
+#: pattern/library/popup/popup-9.php:39
+msgid "Popup 9"
+msgstr ""
+
+#: pattern/library/popup/popup-10.php:25
+msgid "Get extra 30-50% off"
+msgstr ""
+
+#: pattern/library/popup/popup-10.php:29
+msgid "Spring Sale"
+msgstr ""
+
+#: pattern/library/popup/popup-10.php:33
+msgid "From 3rd of March 2020 to 6th of June 2020"
+msgstr ""
+
+#: pattern/library/popup/popup-10.php:38
+msgid "Shop Now"
+msgstr ""
+
+#: pattern/library/popup/popup-10.php:49
+msgid "Popup 10"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:18
+msgid "Enjoy "
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:18
+msgid "15% OFF"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:22
+msgid "for a limited time"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:36
+msgid "26"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:40
+msgid "days"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:48
+msgid "06"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:52
+msgid "hours"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:60
+msgid "01"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:64
+msgid "minutes"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:72
+msgid "37"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:76
+msgid "seconds"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:84
+msgid "Book trip"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:89
+msgid "No thanks"
+msgstr ""
+
+#: pattern/library/popup/popup-11.php:99
+msgid "Popup 11"
+msgstr ""
+
+#: popup-information-content.php:26
+msgid "welcome to the CocoPopup Dashboard"
+msgstr ""
+
+#: popup-information-content.php:75
+msgid "This is the Popup dashboard where you can check the results obtained from your popups. At the top, you'll find useful links. You can visit our extensions, ask for support, join our Community, and preview our extensions live. On the right, you can see the total number of popups you've created and create new popups. Our popup is a Gutenberg block, so you can use it anywhere on your site. You can create it in a post, on a page, in a WooCommerce product, or if you want to display it site-wide, you can simply add it to the Footer using the respective link. At the bottom, there are reports of the created popups, including the name, ID, location, number of views, and you can edit or reset it. If you reset it, the views will start from 0. As for interactions, they are available in the \"Analytics Popup\" extension where, in addition to interactions, you'll have the possibility to view interactive charts and even download them in CSV format. Start Date and End Date are only available with the \"Schedule Popup\" extension where you can schedule the appearance and disappearance date of the popup. You can find more information about our "
+msgstr ""
+
+#: popup-information-content.php:75
+msgid "Popup here!"
+msgstr ""
+
+#: popup-information-content.php:92
+msgid "Support"
+msgstr ""
+
+#: popup-information-content.php:98
+msgid "Community"
+msgstr ""
+
+#: popup-information-content.php:104
+msgid "Live Demos"
+msgstr ""
+
+#: popup-information-content.php:116
+msgid "Name"
+msgstr ""
+
+#: popup-information-content.php:117
+msgid "ID"
+msgstr ""
+
+#: popup-information-content.php:118
+msgid "Situated in"
+msgstr ""
+
+#: popup-information-content.php:119
+#: build/index.js:6075
+#: src/edit.js:1931
+#: build/index.js:5508
+msgid "Start Date"
+msgstr ""
+
+#: popup-information-content.php:120
+#: build/index.js:6082
+#: src/edit.js:1937
+#: build/index.js:5514
+msgid "End Date"
+msgstr ""
+
+#: popup-information-content.php:122
+msgid "Visualizations"
+msgstr ""
+
+#: popup-information-content.php:123
+#: popup-information-content.php:168
+msgid "Edit"
+msgstr ""
+
+#: popup-information-content.php:124
+#: popup-information-content.php:169
+msgid "Reset"
+msgstr ""
+
+#: popup-information-content.php:166
+msgid "Pro Only"
+msgstr ""
+
+#: popup-information-content.php:179
+msgid "Total Popups"
+msgstr ""
+
+#: popup-information-content.php:189
+msgid "Create a new Popup"
+msgstr ""
+
+#: popup-information-content.php:192
+msgid "In a new post"
+msgstr ""
+
+#: popup-information-content.php:195
+msgid "In a new page"
+msgstr ""
+
+#: popup-information-content.php:198
+msgid "On the site"
+msgstr ""
+
+#: popup-information-content.php:207
+msgid "Upgrade to Pro for Exclusive Features"
+msgstr ""
+
+#: popup-information-content.php:210
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: build/index.js:2522
+#: src/components/avatarPopup.js:29
+#: build/index.js:2132
+msgid "CocoPopup Assistance"
+msgstr ""
+
+#: build/index.js:2528
+#: src/components/avatarPopup.js:34
+#: build/index.js:2137
+msgid "Hi "
+msgstr ""
+
+#: build/index.js:2528
+#: src/components/avatarPopup.js:34
+#: build/index.js:2137
+msgid ". I am your personal assistant."
+msgstr ""
+
+#: build/index.js:2532
+#: src/components/avatarPopup.js:39
+#: build/index.js:2142
+msgid "To create a popup correctly, you need to input both the Popup Name and its ID (which must be unique for each popup you create). This information will only be visible to you but may prove useful for monitoring the respective statistics from the Popup dashboard. If you look to your right, you'll find this data readily available, allowing you to keep track of it effortlessly. Additionally, on your right-hand side, the controls are categorized into three parts: Content, Style, and Advanced. Within the Content section, you'll discover all the contents of the popup, including methods for triggering its appearance, the conditions it must meet to display, and the closing mechanism. The Style section offers controls for customizing the popup's appearance, while the Advanced section provides options for configuring body scrolling behavior upon popup appearance and introducing animations. In the Pattern section, you'll encounter a new entry labeled \"Popup\", offering predefined patterns for your convenience. Naturally, within the popup, you have the freedom to insert any blocks you desire, making it effortless to bring your ideas to life."
+msgstr ""
+
+#: build/index.js:2593
+#: build/index.js:3110
+#: build/index.js:3404
+#: src/components/backgroundColorPanelOne.js:37
+#: src/components/boxShadowPanel.js:96
+#: src/components/colorPanel.js:22
+#: build/index.js:2187
+#: build/index.js:2853
+#: build/index.js:3087
+msgid "Normal"
+msgstr ""
+
+#: build/index.js:2597
+#: build/index.js:3114
+#: build/index.js:3408
+#: src/components/backgroundColorPanelOne.js:42
+#: src/components/boxShadowPanel.js:101
+#: src/components/colorPanel.js:27
+#: build/index.js:2192
+#: build/index.js:2858
+#: build/index.js:3092
+msgid "Hover"
+msgstr ""
+
+#: build/index.js:2600
+#: build/index.js:2649
+#: src/components/backgroundColorPanelOne.js:51
+#: src/components/backgroundColorPanelOne.js:138
+#: build/index.js:2201
+#: build/index.js:2288
+msgid "Type"
+msgstr ""
+
+#: build/index.js:2605
+#: build/index.js:2610
+#: build/index.js:2654
+#: build/index.js:2659
+#: build/index.js:3040
+#: build/index.js:3119
+#: build/index.js:3180
+#: build/index.js:3289
+#: build/index.js:3296
+#: build/index.js:3413
+#: build/index.js:3426
+#: build/index.js:6678
+#: build/index.js:6901
+#: build/index.js:7069
+#: build/index.js:7076
+#: build/index.js:7093
+#: build/index.js:7324
+#: build/index.js:7341
+#: build/index.js:7358
+#: build/index.js:7392
+#: build/index.js:7529
+#: build/index.js:7655
+#: src/components/backgroundColorPanelOne.js:57
+#: src/components/backgroundColorPanelOne.js:69
+#: src/components/backgroundColorPanelOne.js:144
+#: src/components/backgroundColorPanelOne.js:156
+#: src/components/boxShadowPanel.js:33
+#: src/components/boxShadowPanel.js:111
+#: src/components/boxShadowPanel.js:164
+#: src/components/boxShadowPanelSimple.js:20
+#: src/components/boxShadowPanelSimple.js:30
+#: src/components/colorPanel.js:37
+#: src/components/colorPanel.js:58
+#: src/edit.js:2521
+#: src/edit.js:2713
+#: src/edit.js:2855
+#: src/edit.js:2865
+#: src/edit.js:2883
+#: src/edit.js:3106
+#: src/edit.js:3124
+#: src/edit.js:3142
+#: src/edit.js:3178
+#: src/edit.js:3303
+#: src/edit.js:3402
+#: build/index.js:2207
+#: build/index.js:2219
+#: build/index.js:2294
+#: build/index.js:2306
+#: build/index.js:2790
+#: build/index.js:2868
+#: build/index.js:2921
+#: build/index.js:3007
+#: build/index.js:3017
+#: build/index.js:3102
+#: build/index.js:3123
+#: build/index.js:6098
+#: build/index.js:6290
+#: build/index.js:6432
+#: build/index.js:6442
+#: build/index.js:6460
+#: build/index.js:6683
+#: build/index.js:6701
+#: build/index.js:6719
+#: build/index.js:6755
+#: build/index.js:6880
+#: build/index.js:6979
+msgid "Color"
+msgstr ""
+
+#: build/index.js:2608
+#: build/index.js:2657
+#: src/components/backgroundColorPanelOne.js:63
+#: src/components/backgroundColorPanelOne.js:150
+#: build/index.js:2213
+#: build/index.js:2300
+msgid "Gradient"
+msgstr ""
+
+#: build/index.js:2625
+#: build/index.js:2674
+#: src/components/backgroundColorPanelOne.js:94
+#: src/components/backgroundColorPanelOne.js:181
+#: build/index.js:2244
+#: build/index.js:2331
+msgid "Vivid cyan blue to vivid purple"
+msgstr ""
+
+#: build/index.js:2629
+#: build/index.js:2678
+#: src/components/backgroundColorPanelOne.js:100
+#: src/components/backgroundColorPanelOne.js:187
+#: build/index.js:2250
+#: build/index.js:2337
+msgid "Light green cyan to vivid green cyan"
+msgstr ""
+
+#: build/index.js:2633
+#: build/index.js:2682
+#: src/components/backgroundColorPanelOne.js:106
+#: src/components/backgroundColorPanelOne.js:193
+#: build/index.js:2256
+#: build/index.js:2343
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr ""
+
+#: build/index.js:2637
+#: build/index.js:2686
+#: src/components/backgroundColorPanelOne.js:112
+#: src/components/backgroundColorPanelOne.js:199
+#: build/index.js:2262
+#: build/index.js:2349
+msgid "Luminous vivid orange to vivid red"
+msgstr ""
+
+#: build/index.js:2641
+#: build/index.js:2690
+#: src/components/backgroundColorPanelOne.js:118
+#: src/components/backgroundColorPanelOne.js:205
+#: build/index.js:2268
+#: build/index.js:2355
+msgid "Very light gray to cyan bluish gray"
+msgstr ""
+
+#: build/index.js:2645
+#: build/index.js:2694
+#: src/components/backgroundColorPanelOne.js:124
+#: src/components/backgroundColorPanelOne.js:211
+#: build/index.js:2274
+#: build/index.js:2361
+msgid "Cool to warm spectrum"
+msgstr ""
+
+#: build/index.js:2699
+#: build/index.js:3240
+#: build/index.js:3438
+#: build/index.js:6759
+#: build/index.js:6982
+#: src/components/backgroundColorPanelOne.js:221
+#: src/components/boxShadowPanel.js:213
+#: src/components/colorPanel.js:75
+#: src/edit.js:2585
+#: src/edit.js:2777
+#: build/index.js:2371
+#: build/index.js:2970
+#: build/index.js:3140
+#: build/index.js:6162
+#: build/index.js:6354
+msgid "Transition Time"
+msgstr ""
+
+#: build/index.js:2741
+#: build/index.js:2879
+#: build/index.js:5454
+#: src/components/borderPanel.js:10
+#: src/components/borderPanelSimple.js:10
+#: src/edit.js:1264
+#: build/index.js:2397
+#: build/index.js:2579
+#: build/index.js:4841
+msgid "Style"
+msgstr ""
+
+#: build/index.js:2745
+#: build/index.js:2883
+#: build/index.js:4724
+#: src/components/borderPanel.js:15
+#: src/components/borderPanelSimple.js:15
+#: src/edit.js:744
+#: build/index.js:2402
+#: build/index.js:2584
+#: build/index.js:4321
+msgid "None"
+msgstr ""
+
+#: build/index.js:2748
+#: build/index.js:2886
+#: src/components/borderPanel.js:19
+#: src/components/borderPanelSimple.js:19
+#: build/index.js:2406
+#: build/index.js:2588
+msgid "Hidden"
+msgstr ""
+
+#: build/index.js:2751
+#: build/index.js:2889
+#: src/components/borderPanel.js:23
+#: src/components/borderPanelSimple.js:23
+#: build/index.js:2410
+#: build/index.js:2592
+msgid "Solid"
+msgstr ""
+
+#: build/index.js:2754
+#: build/index.js:2892
+#: src/components/borderPanel.js:27
+#: src/components/borderPanelSimple.js:27
+#: build/index.js:2414
+#: build/index.js:2596
+msgid "Dotted"
+msgstr ""
+
+#: build/index.js:2757
+#: build/index.js:2895
+#: src/components/borderPanel.js:31
+#: src/components/borderPanelSimple.js:31
+#: build/index.js:2418
+#: build/index.js:2600
+msgid "Dashed"
+msgstr ""
+
+#: build/index.js:2760
+#: build/index.js:2898
+#: src/components/borderPanel.js:35
+#: src/components/borderPanelSimple.js:35
+#: build/index.js:2422
+#: build/index.js:2604
+msgid "Double"
+msgstr ""
+
+#: build/index.js:2763
+#: build/index.js:2901
+#: src/components/borderPanel.js:39
+#: src/components/borderPanelSimple.js:39
+#: build/index.js:2426
+#: build/index.js:2608
+msgid "Groove"
+msgstr ""
+
+#: build/index.js:2766
+#: build/index.js:2904
+#: build/index.js:3095
+#: build/index.js:3168
+#: build/index.js:3229
+#: build/index.js:3344
+#: src/components/borderPanel.js:43
+#: src/components/borderPanelSimple.js:43
+#: src/components/boxShadowPanel.js:82
+#: src/components/boxShadowPanel.js:154
+#: src/components/boxShadowPanel.js:207
+#: src/components/boxShadowPanelSimple.js:69
+#: build/index.js:2430
+#: build/index.js:2612
+#: build/index.js:2839
+#: build/index.js:2911
+#: build/index.js:2964
+#: build/index.js:3056
+msgid "Inset"
+msgstr ""
+
+#: build/index.js:2769
+#: build/index.js:2907
+#: build/index.js:3098
+#: build/index.js:3171
+#: build/index.js:3232
+#: build/index.js:3347
+#: src/components/borderPanel.js:47
+#: src/components/borderPanelSimple.js:47
+#: src/components/boxShadowPanel.js:83
+#: src/components/boxShadowPanel.js:155
+#: src/components/boxShadowPanel.js:208
+#: src/components/boxShadowPanelSimple.js:70
+#: build/index.js:2434
+#: build/index.js:2616
+#: build/index.js:2840
+#: build/index.js:2912
+#: build/index.js:2965
+#: build/index.js:3057
+msgid "Outset"
+msgstr ""
+
+#: build/index.js:2772
+#: build/index.js:2910
+#: src/components/borderPanel.js:51
+#: src/components/borderPanelSimple.js:51
+#: build/index.js:2438
+#: build/index.js:2620
+msgid "Ridge"
+msgstr ""
+
+#: build/index.js:2781
+#: build/index.js:2919
+#: src/components/borderPanel.js:64
+#: src/components/borderPanelSimple.js:64
+#: build/index.js:2451
+#: build/index.js:2633
+msgid "No borders!"
+msgstr ""
+
+#: build/index.js:2787
+#: build/index.js:2925
+#: src/components/borderPanel.js:75
+#: src/components/borderPanelSimple.js:75
+#: build/index.js:2462
+#: build/index.js:2644
+msgid "Hides the edge, but still takes up space!"
+msgstr ""
+
+#: build/index.js:2793
+#: build/index.js:2931
+#: src/components/borderPanel.js:86
+#: src/components/borderPanelSimple.js:86
+#: build/index.js:2473
+#: build/index.js:2655
+msgid "Edge with a uniform thickness and a solid color!"
+msgstr ""
+
+#: build/index.js:2799
+#: build/index.js:2937
+#: src/components/borderPanel.js:97
+#: src/components/borderPanelSimple.js:97
+#: build/index.js:2484
+#: build/index.js:2666
+msgid "Border with a series of dots!"
+msgstr ""
+
+#: build/index.js:2805
+#: build/index.js:2943
+#: src/components/borderPanel.js:108
+#: src/components/borderPanelSimple.js:108
+#: build/index.js:2495
+#: build/index.js:2677
+msgid "Border with a series of dotted lines!"
+msgstr ""
+
+#: build/index.js:2811
+#: build/index.js:2949
+#: src/components/borderPanel.js:119
+#: src/components/borderPanelSimple.js:119
+#: build/index.js:2506
+#: build/index.js:2688
+msgid "Border composed of two parallel lines!"
+msgstr ""
+
+#: build/index.js:2817
+#: build/index.js:2955
+#: src/components/borderPanel.js:130
+#: src/components/borderPanelSimple.js:130
+#: build/index.js:2517
+#: build/index.js:2699
+msgid "Three-dimensional effect similar to a hollow!"
+msgstr ""
+
+#: build/index.js:2823
+#: build/index.js:2961
+#: src/components/borderPanel.js:141
+#: src/components/borderPanelSimple.js:141
+#: build/index.js:2528
+#: build/index.js:2710
+msgid "Embedded inside the element!"
+msgstr ""
+
+#: build/index.js:2829
+#: build/index.js:2967
+#: src/components/borderPanel.js:152
+#: src/components/borderPanelSimple.js:152
+#: build/index.js:2539
+#: build/index.js:2721
+msgid "Protruding outward from the element!"
+msgstr ""
+
+#: build/index.js:2835
+#: build/index.js:2973
+#: src/components/borderPanel.js:163
+#: src/components/borderPanelSimple.js:163
+#: build/index.js:2550
+#: build/index.js:2732
+msgid "Three-dimensional effect similar to a relief!"
+msgstr ""
+
+#: build/index.js:2836
+#: build/index.js:2974
+#: build/index.js:6440
+#: src/components/borderPanel.js:168
+#: src/components/borderPanelSimple.js:168
+#: src/edit.js:2324
+#: build/index.js:2555
+#: build/index.js:2737
+#: build/index.js:5901
+msgid "Width"
+msgstr ""
+
+#: build/index.js:2840
+#: build/index.js:2981
+#: src/components/borderPanel.js:174
+#: src/components/borderPanelSimple.js:177
+#: build/index.js:2561
+#: build/index.js:2746
+msgid "Radius"
+msgstr ""
+
+#: build/index.js:3035
+#: src/components/boxShadowPanel.js:26
+#: build/index.js:2783
+msgid "Separate Hover Box Shadow"
+msgstr ""
+
+#: build/index.js:3047
+#: build/index.js:3126
+#: build/index.js:3187
+#: build/index.js:3433
+#: src/components/boxShadowPanel.js:43
+#: src/components/boxShadowPanel.js:121
+#: src/components/boxShadowPanel.js:174
+#: src/components/colorPanel.js:68
+#: build/index.js:2800
+#: build/index.js:2878
+#: build/index.js:2931
+#: build/index.js:3133
+msgid "Color Hover"
+msgstr ""
+
+#: build/index.js:3055
+#: build/index.js:3134
+#: build/index.js:3195
+#: build/index.js:3304
+#: src/components/boxShadowPanel.js:50
+#: src/components/boxShadowPanel.js:128
+#: src/components/boxShadowPanel.js:181
+#: src/components/boxShadowPanelSimple.js:37
+#: build/index.js:2807
+#: build/index.js:2885
+#: build/index.js:2938
+#: build/index.js:3024
+msgid "Horizontal Offset"
+msgstr ""
+
+#: build/index.js:3065
+#: build/index.js:3141
+#: build/index.js:3202
+#: build/index.js:3314
+#: src/components/boxShadowPanel.js:58
+#: src/components/boxShadowPanel.js:133
+#: src/components/boxShadowPanel.js:186
+#: src/components/boxShadowPanelSimple.js:45
+#: build/index.js:2815
+#: build/index.js:2890
+#: build/index.js:2943
+#: build/index.js:3032
+msgid "Vertical Offset"
+msgstr ""
+
+#: build/index.js:3075
+#: build/index.js:3148
+#: build/index.js:3209
+#: build/index.js:3324
+#: src/components/boxShadowPanel.js:66
+#: src/components/boxShadowPanel.js:138
+#: src/components/boxShadowPanel.js:191
+#: src/components/boxShadowPanelSimple.js:53
+#: build/index.js:2823
+#: build/index.js:2895
+#: build/index.js:2948
+#: build/index.js:3040
+msgid "Blur"
+msgstr ""
+
+#: build/index.js:3082
+#: build/index.js:3155
+#: build/index.js:3216
+#: build/index.js:3331
+#: src/components/boxShadowPanel.js:71
+#: src/components/boxShadowPanel.js:143
+#: src/components/boxShadowPanel.js:196
+#: src/components/boxShadowPanelSimple.js:58
+#: build/index.js:2828
+#: build/index.js:2900
+#: build/index.js:2953
+#: build/index.js:3045
+msgid "Spread"
+msgstr ""
+
+#: build/index.js:3092
+#: build/index.js:3165
+#: build/index.js:3226
+#: build/index.js:3341
+#: src/components/boxShadowPanel.js:79
+#: src/components/boxShadowPanel.js:151
+#: src/components/boxShadowPanel.js:204
+#: src/components/boxShadowPanelSimple.js:66
+#: build/index.js:2836
+#: build/index.js:2908
+#: build/index.js:2961
+#: build/index.js:3053
+msgid "Shadow Type"
+msgstr ""
+
+#: build/index.js:3420
+#: src/components/colorPanel.js:47
+#: build/index.js:3112
+msgid "Color Normal"
+msgstr ""
+
+#: build/index.js:3819
+#: src/components/widthPanel.js:27
+#: build/index.js:3485
+msgid "Width Desktop"
+msgstr ""
+
+#: build/index.js:3826
+#: src/components/widthPanel.js:37
+#: build/index.js:3495
+msgid "Width Tablet"
+msgstr ""
+
+#: build/index.js:3833
+#: src/components/widthPanel.js:47
+#: build/index.js:3505
+msgid "Width Mobile"
+msgstr ""
+
+#: build/index.js:3843
+#: build/index.js:5994
+#: src/components/widthPanel.js:58
+#: src/edit.js:1843
+#: build/index.js:3516
+#: build/index.js:5420
+msgid "Desktop"
+msgstr ""
+
+#: build/index.js:3848
+#: build/index.js:6013
+#: src/components/widthPanel.js:64
+#: src/edit.js:1861
+#: build/index.js:3522
+#: build/index.js:5438
+msgid "Tablet"
+msgstr ""
+
+#: build/index.js:3853
+#: build/index.js:6032
+#: src/components/widthPanel.js:70
+#: src/edit.js:1879
+#: build/index.js:3528
+#: build/index.js:5456
+msgid "Mobile"
+msgstr ""
+
+#: build/index.js:3859
+#: build/index.js:3864
+#: src/components/widthPanel.js:77
+#: src/components/widthPanel.js:83
+#: build/index.js:3535
+#: build/index.js:3541
+msgid "px"
+msgstr ""
+
+#: build/index.js:3865
+#: build/index.js:3870
+#: src/components/widthPanel.js:86
+#: src/components/widthPanel.js:92
+#: build/index.js:3544
+#: build/index.js:3550
+msgid "em"
+msgstr ""
+
+#: build/index.js:3871
+#: build/index.js:3876
+#: src/components/widthPanel.js:95
+#: src/components/widthPanel.js:101
+#: build/index.js:3553
+#: build/index.js:3559
+msgid "rem"
+msgstr ""
+
+#: build/index.js:3877
+#: build/index.js:3882
+#: src/components/widthPanel.js:104
+#: src/components/widthPanel.js:110
+#: build/index.js:3562
+#: build/index.js:3568
+msgid "%"
+msgstr ""
+
+#: build/index.js:4693
+#: src/edit.js:726
+#: build/index.js:4303
+msgid "English"
+msgstr ""
+
+#: build/index.js:4696
+#: src/edit.js:727
+#: build/index.js:4304
+msgid "Italian"
+msgstr ""
+
+#: build/index.js:4699
+#: src/edit.js:728
+#: build/index.js:4305
+msgid "French"
+msgstr ""
+
+#: build/index.js:4702
+#: src/edit.js:729
+#: build/index.js:4306
+msgid "German"
+msgstr ""
+
+#: build/index.js:4705
+#: src/edit.js:730
+#: build/index.js:4307
+msgid "Chinese"
+msgstr ""
+
+#: build/index.js:4708
+#: src/edit.js:731
+#: build/index.js:4308
+msgid "Spanish"
+msgstr ""
+
+#: build/index.js:4727
+#: src/edit.js:745
+#: build/index.js:4322
+msgid "Shake"
+msgstr ""
+
+#: build/index.js:4730
+#: src/edit.js:746
+#: build/index.js:4323
+msgid "Fade In"
+msgstr ""
+
+#: build/index.js:4733
+#: src/edit.js:747
+#: build/index.js:4324
+msgid "Slide Left"
+msgstr ""
+
+#: build/index.js:4736
+#: src/edit.js:748
+#: build/index.js:4325
+msgid "Slide Right"
+msgstr ""
+
+#: build/index.js:4739
+#: src/edit.js:749
+#: build/index.js:4326
+msgid "Slide Top"
+msgstr ""
+
+#: build/index.js:4742
+#: src/edit.js:750
+#: build/index.js:4327
+msgid "Slide Bottom"
+msgstr ""
+
+#: build/index.js:4745
+#: src/edit.js:751
+#: build/index.js:4328
+msgid "Flip"
+msgstr ""
+
+#: build/index.js:4748
+#: src/edit.js:752
+#: build/index.js:4329
+msgid "Wobble"
+msgstr ""
+
+#: build/index.js:4751
+#: src/edit.js:753
+#: build/index.js:4330
+msgid "Swing"
+msgstr ""
+
+#: build/index.js:4754
+#: src/edit.js:754
+#: build/index.js:4331
+msgid "Flash"
+msgstr ""
+
+#: build/index.js:4757
+#: src/edit.js:755
+#: build/index.js:4332
+msgid "Bounce In"
+msgstr ""
+
+#: build/index.js:4760
+#: src/edit.js:756
+#: build/index.js:4333
+msgid "Bounce In Right"
+msgstr ""
+
+#: build/index.js:4763
+#: src/edit.js:757
+#: build/index.js:4334
+msgid "Bounce In Left"
+msgstr ""
+
+#: build/index.js:4766
+#: src/edit.js:758
+#: build/index.js:4335
+msgid "Tada"
+msgstr ""
+
+#: build/index.js:4769
+#: src/edit.js:759
+#: build/index.js:4336
+msgid "Jello"
+msgstr ""
+
+#: build/index.js:4772
+#: src/edit.js:760
+#: build/index.js:4337
+msgid "Rotate"
+msgstr ""
+
+#: build/index.js:4775
+#: src/edit.js:761
+#: build/index.js:4338
+msgid "Pulse"
+msgstr ""
+
+#: build/index.js:4797
+#: src/edit.js:780
+#: build/index.js:4357
+msgid "100"
+msgstr ""
+
+#: build/index.js:4800
+#: src/edit.js:781
+#: build/index.js:4358
+msgid "200"
+msgstr ""
+
+#: build/index.js:4803
+#: src/edit.js:782
+#: build/index.js:4359
+msgid "300"
+msgstr ""
+
+#: build/index.js:4806
+#: src/edit.js:783
+#: build/index.js:4360
+msgid "400"
+msgstr ""
+
+#: build/index.js:4809
+#: src/edit.js:784
+#: build/index.js:4361
+msgid "500"
+msgstr ""
+
+#: build/index.js:4812
+#: src/edit.js:785
+#: build/index.js:4362
+msgid "600"
+msgstr ""
+
+#: build/index.js:4815
+#: src/edit.js:786
+#: build/index.js:4363
+msgid "700"
+msgstr ""
+
+#: build/index.js:4818
+#: src/edit.js:787
+#: build/index.js:4364
+msgid "800"
+msgstr ""
+
+#: build/index.js:4821
+#: src/edit.js:788
+#: build/index.js:4365
+msgid "900"
+msgstr ""
+
+#: build/index.js:4849
+#: src/edit.js:811
+#: build/index.js:4388
+msgid "Half"
+msgstr ""
+
+#: build/index.js:4852
+#: src/edit.js:812
+#: build/index.js:4389
+msgid "3/4"
+msgstr ""
+
+#: build/index.js:4855
+#: src/edit.js:813
+#: build/index.js:4390
+msgid "End"
+msgstr ""
+
+#: build/index.js:4858
+#: src/edit.js:814
+#: build/index.js:4391
+msgid "Page Percentage"
+msgstr ""
+
+#: build/index.js:4874
+#: build/index.js:8118
+#: build/index.js:8227
+#: src/edit.js:827
+#: src/edit.js:3840
+#: src/edit.js:3915
+#: build/index.js:4404
+#: build/index.js:7417
+#: build/index.js:7492
+msgid "Seconds"
+msgstr ""
+
+#: build/index.js:4877
+#: src/edit.js:828
+#: build/index.js:4405
+msgid "Date"
+msgstr ""
+
+#: build/index.js:4880
+#: src/edit.js:829
+#: build/index.js:4406
+msgid "Date Round"
+msgstr ""
+
+#: build/index.js:4896
+#: src/edit.js:842
+#: build/index.js:4419
+msgid "Up"
+msgstr ""
+
+#: build/index.js:4899
+#: src/edit.js:843
+#: build/index.js:4420
+msgid "Down"
+msgstr ""
+
+#: build/index.js:4915
+#: src/edit.js:856
+#: build/index.js:4433
+msgid "Google Chrome"
+msgstr ""
+
+#: build/index.js:4918
+#: src/edit.js:857
+#: build/index.js:4434
+msgid "Mozilla Firefox"
+msgstr ""
+
+#: build/index.js:4921
+#: src/edit.js:858
+#: build/index.js:4435
+msgid "Safari"
+msgstr ""
+
+#: build/index.js:4924
+#: src/edit.js:859
+#: build/index.js:4436
+msgid "Microsoft Edge"
+msgstr ""
+
+#: build/index.js:4927
+#: src/edit.js:860
+#: build/index.js:4437
+msgid "Opera"
+msgstr ""
+
+#: build/index.js:4930
+#: src/edit.js:861
+#: build/index.js:4438
+msgid "Internet Explorer"
+msgstr ""
+
+#: build/index.js:4946
+#: src/edit.js:874
+#: build/index.js:4451
+msgid "On Load"
+msgstr ""
+
+#: build/index.js:4949
+#: src/edit.js:875
+#: build/index.js:4452
+msgid "On Click by CSS Class"
+msgstr ""
+
+#: build/index.js:4952
+#: src/edit.js:876
+#: build/index.js:4453
+msgid "On Hover by CSS Class"
+msgstr ""
+
+#: build/index.js:4955
+#: src/edit.js:877
+#: build/index.js:4454
+msgid "On specific CSS Class"
+msgstr ""
+
+#: build/index.js:4964
+#: build/index.js:4974
+#: src/edit.js:884
+#: src/edit.js:889
+#: build/index.js:4461
+#: build/index.js:4466
+msgid "On scroll specific position"
+msgstr ""
+
+#: build/index.js:4968
+#: build/index.js:4979
+#: src/edit.js:885
+#: src/edit.js:890
+#: build/index.js:4462
+#: build/index.js:4467
+msgid "On scroll direction"
+msgstr ""
+
+#: build/index.js:4988
+#: build/index.js:4994
+#: src/edit.js:895
+#: src/edit.js:898
+#: build/index.js:4472
+#: build/index.js:4475
+msgid "Exit Intent"
+msgstr ""
+
+#: build/index.js:5002
+#: build/index.js:5008
+#: src/edit.js:902
+#: src/edit.js:905
+#: build/index.js:4479
+#: build/index.js:4482
+msgid "Inactivity"
+msgstr ""
+
+#: build/index.js:5027
+#: src/edit.js:919
+#: build/index.js:4496
+msgid "Arabo"
+msgstr ""
+
+#: build/index.js:5030
+#: src/edit.js:920
+#: build/index.js:4497
+msgid "Bengalese"
+msgstr ""
+
+#: build/index.js:5033
+#: src/edit.js:921
+#: build/index.js:4498
+msgid "Cinese Mandarino"
+msgstr ""
+
+#: build/index.js:5036
+#: src/edit.js:922
+#: build/index.js:4499
+msgid "Francese"
+msgstr ""
+
+#: build/index.js:5039
+#: src/edit.js:923
+#: build/index.js:4500
+msgid "Giapponese"
+msgstr ""
+
+#: build/index.js:5042
+#: src/edit.js:924
+#: build/index.js:4501
+msgid "Hindi"
+msgstr ""
+
+#: build/index.js:5045
+#: src/edit.js:925
+#: build/index.js:4502
+msgid "Indonesiano"
+msgstr ""
+
+#: build/index.js:5048
+#: src/edit.js:926
+#: build/index.js:4503
+msgid "Inglese"
+msgstr ""
+
+#: build/index.js:5051
+#: src/edit.js:927
+#: build/index.js:4504
+msgid "Ialiano"
+msgstr ""
+
+#: build/index.js:5054
+#: src/edit.js:928
+#: build/index.js:4505
+msgid "Olandese"
+msgstr ""
+
+#: build/index.js:5057
+#: src/edit.js:929
+#: build/index.js:4506
+msgid "Portoghese"
+msgstr ""
+
+#: build/index.js:5060
+#: src/edit.js:930
+#: build/index.js:4507
+msgid "Russo"
+msgstr ""
+
+#: build/index.js:5063
+#: src/edit.js:931
+#: build/index.js:4508
+msgid "Spagnolo"
+msgstr ""
+
+#: build/index.js:5066
+#: src/edit.js:932
+#: build/index.js:4509
+msgid "Tedesco"
+msgstr ""
+
+#: build/index.js:5069
+#: src/edit.js:933
+#: build/index.js:4510
+msgid "Urdu"
+msgstr ""
+
+#: build/index.js:5085
+#: src/edit.js:946
+#: build/index.js:4523
+msgid "Lower"
+msgstr ""
+
+#: build/index.js:5088
+#: src/edit.js:947
+#: build/index.js:4524
+msgid "Higher"
+msgstr ""
+
+#: build/index.js:5104
+#: src/edit.js:960
+#: build/index.js:4537
+msgid "Instant"
+msgstr ""
+
+#: build/index.js:5112
+#: build/index.js:5118
+#: build/index.js:6991
+#: src/edit.js:966
+#: src/edit.js:969
+#: src/edit.js:2791
+#: build/index.js:4543
+#: build/index.js:4546
+#: build/index.js:6368
+msgid "Contdown"
+msgstr ""
+
+#: build/index.js:5126
+#: build/index.js:5132
+#: build/index.js:7423
+#: src/edit.js:973
+#: src/edit.js:976
+#: src/edit.js:3214
+#: build/index.js:4550
+#: build/index.js:4553
+#: build/index.js:6791
+msgid "Age Restriction"
+msgstr ""
+
+#: build/index.js:5160
+#: build/index.js:5195
+#: src/edit.js:985
+#: src/edit.js:994
+#: build/index.js:4562
+#: build/index.js:4571
+msgid "On Class"
+msgstr ""
+
+#: build/index.js:5450
+#: build/index.js:5461
+#: src/edit.js:1259
+#: src/edit.js:1277
+#: build/index.js:4836
+#: build/index.js:4854
+msgid "Content"
+msgstr ""
+
+#: build/index.js:5458
+#: src/edit.js:1269
+#: build/index.js:4846
+msgid "Advanced"
+msgstr ""
+
+#: build/index.js:5466
+#: src/edit.js:1282
+#: build/index.js:4859
+msgid "Your Wonderful Popup"
+msgstr ""
+
+#: build/index.js:5470
+#: src/edit.js:1283
+#: build/index.js:4860
+msgid "Name: "
+msgstr ""
+
+#: build/index.js:5470
+#: src/edit.js:1284
+#: build/index.js:4861
+msgid "ID: "
+msgstr ""
+
+#: build/index.js:5470
+#: src/edit.js:1286
+#: build/index.js:4863
+msgid "Events: "
+msgstr ""
+
+#: build/index.js:5470
+#: src/edit.js:1290
+#: build/index.js:4867
+msgid "Closing: "
+msgstr ""
+
+#: build/index.js:5475
+#: build/index.js:6049
+#: build/index.js:6053
+#: src/edit.js:1295
+#: src/edit.js:1897
+#: src/edit.js:1902
+#: build/index.js:4872
+#: build/index.js:5474
+#: build/index.js:5479
+msgid "Schedule"
+msgstr ""
+
+#: build/index.js:5475
+#: src/edit.js:1296
+#: build/index.js:4873
+msgid "Start: "
+msgstr ""
+
+#: build/index.js:5475
+#: src/edit.js:1297
+#: build/index.js:4874
+msgid "End: "
+msgstr ""
+
+#: build/index.js:5478
+#: src/edit.js:1303
+#: build/index.js:4880
+msgid "Id Popup"
+msgstr ""
+
+#: build/index.js:5483
+#: src/edit.js:1306
+#: build/index.js:4883
+msgid "This ID is unique only for this Popup, it will be visible only to you. It is essential to include it for the proper functioning of the Popup!"
+msgstr ""
+
+#: build/index.js:5487
+#: src/edit.js:1310
+#: build/index.js:4887
+msgid "Name Popup"
+msgstr ""
+
+#: build/index.js:5492
+#: src/edit.js:1313
+#: build/index.js:4890
+msgid "This is the name of your Popup!"
+msgstr ""
+
+#: build/index.js:5498
+#: src/edit.js:1322
+#: build/index.js:4899
+msgid "Text Button"
+msgstr ""
+
+#: build/index.js:5503
+#: src/edit.js:1325
+#: build/index.js:4902
+msgid "Close Button Text!"
+msgstr ""
+
+#: build/index.js:5507
+#: build/index.js:6312
+#: build/index.js:6768
+#: build/index.js:6773
+#: build/index.js:7691
+#: src/edit.js:1330
+#: src/edit.js:2180
+#: src/edit.js:2598
+#: src/edit.js:2603
+#: src/edit.js:3440
+#: build/index.js:4907
+#: build/index.js:5757
+#: build/index.js:6175
+#: build/index.js:6180
+#: build/index.js:7017
+msgid "Button 2"
+msgstr ""
+
+#: build/index.js:5512
+#: src/edit.js:1333
+#: build/index.js:4910
+msgid "Enable the second button"
+msgstr ""
+
+#: build/index.js:5523
+#: build/index.js:5786
+#: build/index.js:5818
+#: build/index.js:5861
+#: build/index.js:5889
+#: build/index.js:5917
+#: build/index.js:5947
+#: build/index.js:5984
+#: build/index.js:6075
+#: build/index.js:7726
+#: build/index.js:7775
+#: src/edit.js:1341
+#: src/edit.js:1614
+#: src/edit.js:1653
+#: src/edit.js:1700
+#: src/edit.js:1728
+#: src/edit.js:1756
+#: src/edit.js:1788
+#: src/edit.js:1825
+#: src/edit.js:1924
+#: src/edit.js:3474
+#: src/edit.js:3528
+#: build/index.js:4918
+#: build/index.js:5191
+#: build/index.js:5230
+#: build/index.js:5277
+#: build/index.js:5305
+#: build/index.js:5333
+#: build/index.js:5365
+#: build/index.js:5402
+#: build/index.js:5501
+#: build/index.js:7051
+#: build/index.js:7105
+msgid "Only pro extension!"
+msgstr ""
+
+#: build/index.js:5524
+#: src/edit.js:1349
+#: build/index.js:4926
+msgid "Text Button 2"
+msgstr ""
+
+#: build/index.js:5529
+#: src/edit.js:1352
+#: build/index.js:4929
+msgid "Close Button Text 2!"
+msgstr ""
+
+#: build/index.js:5531
+#: build/index.js:6329
+#: src/edit.js:1355
+#: src/edit.js:2199
+#: build/index.js:4932
+#: build/index.js:5776
+msgid "Link"
+msgstr ""
+
+#: build/index.js:5538
+#: build/index.js:6304
+#: build/index.js:6336
+#: src/edit.js:1361
+#: src/edit.js:2172
+#: src/edit.js:2205
+#: build/index.js:4938
+#: build/index.js:5749
+#: build/index.js:5782
+msgid "Open in a new window"
+msgstr ""
+
+#: build/index.js:5544
+#: src/edit.js:1369
+#: build/index.js:4946
+msgid "Events"
+msgstr ""
+
+#: build/index.js:5547
+#: src/edit.js:1373
+#: build/index.js:4950
+msgid "Select the specific actions that will trigger the popup, default event is on load"
+msgstr ""
+
+#: build/index.js:5555
+#: build/index.js:5685
+#: build/index.js:5834
+#: build/index.js:5862
+#: build/index.js:5890
+#: build/index.js:6112
+#: build/index.js:6320
+#: src/edit.js:1378
+#: src/edit.js:1494
+#: src/edit.js:1678
+#: src/edit.js:1707
+#: src/edit.js:1735
+#: src/edit.js:1973
+#: src/edit.js:2187
+#: build/index.js:4955
+#: build/index.js:5071
+#: build/index.js:5255
+#: build/index.js:5284
+#: build/index.js:5312
+#: build/index.js:5550
+#: build/index.js:5764
+msgid "Delay (ms)"
+msgstr ""
+
+#: build/index.js:5564
+#: build/index.js:5656
+#: src/edit.js:1389
+#: src/edit.js:1456
+#: build/index.js:4966
+#: build/index.js:5033
+msgid "Insert Class"
+msgstr ""
+
+#: build/index.js:5569
+#: build/index.js:5661
+#: src/edit.js:1392
+#: src/edit.js:1459
+#: build/index.js:4969
+#: build/index.js:5036
+msgid "Class element name"
+msgstr ""
+
+#: build/index.js:5571
+#: src/edit.js:1395
+#: build/index.js:4972
+msgid "Opening Sound"
+msgstr ""
+
+#: build/index.js:5576
+#: src/edit.js:1398
+#: build/index.js:4975
+msgid "The Pupup will open with a sound!"
+msgstr ""
+
+#: build/index.js:5588
+#: src/edit.js:1410
+#: build/index.js:4987
+msgid "Upload Audio files"
+msgstr ""
+
+#: build/index.js:5595
+#: src/edit.js:1413
+#: build/index.js:4990
+msgid "Trash"
+msgstr ""
+
+#: build/index.js:5601
+#: src/edit.js:1418
+#: build/index.js:4995
+msgid "Play"
+msgstr ""
+
+#: build/index.js:5655
+#: src/edit.js:1448
+#: build/index.js:5025
+msgid "If you don't load any audio file, a default sound will be used!"
+msgstr ""
+
+#: build/index.js:5663
+#: src/edit.js:1464
+#: build/index.js:5041
+msgid "Enter Class Name"
+msgstr ""
+
+#: build/index.js:5668
+#: src/edit.js:1467
+#: build/index.js:5044
+msgid "Enter the class of the element you want the Popup output to correspond to here!"
+msgstr ""
+
+#: build/index.js:5672
+#: src/edit.js:1474
+#: build/index.js:5051
+msgid "Reopen Popup"
+msgstr ""
+
+#: build/index.js:5677
+#: src/edit.js:1477
+#: build/index.js:5054
+msgid "The Popup will resume its event once closed!"
+msgstr ""
+
+#: build/index.js:5684
+#: src/edit.js:1487
+#: build/index.js:5064
+msgid "Caution, it may be useful for some events, while for others it may not be!"
+msgstr ""
+
+#: build/index.js:5694
+#: build/index.js:5722
+#: src/edit.js:1504
+#: src/edit.js:1533
+#: build/index.js:5081
+#: build/index.js:5110
+msgid "Scroll Timeout (ms)"
+msgstr ""
+
+#: build/index.js:5702
+#: src/edit.js:1514
+#: build/index.js:5091
+msgid "Select Page Position"
+msgstr ""
+
+#: build/index.js:5708
+#: src/edit.js:1518
+#: build/index.js:5095
+msgid "Percentage"
+msgstr ""
+
+#: build/index.js:5716
+#: src/edit.js:1530
+#: build/index.js:5107
+msgid "Select Scroll Direction"
+msgstr ""
+
+#: build/index.js:5731
+#: src/edit.js:1544
+#: build/index.js:5121
+msgid "Conditions"
+msgstr ""
+
+#: build/index.js:5734
+#: src/edit.js:1548
+#: build/index.js:5125
+msgid "Set how conditions should occur"
+msgstr ""
+
+#: build/index.js:5737
+#: build/index.js:5742
+#: src/edit.js:1551
+#: src/edit.js:1559
+#: build/index.js:5128
+#: build/index.js:5136
+msgid "AND"
+msgstr ""
+
+#: build/index.js:5743
+#: build/index.js:5748
+#: src/edit.js:1562
+#: src/edit.js:1570
+#: build/index.js:5139
+#: build/index.js:5147
+msgid "OR"
+msgstr ""
+
+#: build/index.js:5754
+#: src/edit.js:1581
+#: build/index.js:5158
+msgid "All enabled conditions must be met!"
+msgstr ""
+
+#: build/index.js:5760
+#: src/edit.js:1592
+#: build/index.js:5169
+msgid "At least one enabled condition must be met!"
+msgstr ""
+
+#: build/index.js:5761
+#: src/edit.js:1596
+#: build/index.js:5173
+msgid "Activate the Popup in all cases"
+msgstr ""
+
+#: build/index.js:5766
+#: src/edit.js:1599
+#: build/index.js:5176
+msgid "Force the Popup to appear in any situation!"
+msgstr ""
+
+#: build/index.js:5775
+#: src/edit.js:1606
+#: build/index.js:5183
+msgid "The Popup will appear after a certain number of page visits!"
+msgstr ""
+
+#: build/index.js:5787
+#: src/edit.js:1622
+#: build/index.js:5199
+msgid "Enter the Number"
+msgstr ""
+
+#: build/index.js:5799
+#: src/edit.js:1636
+#: build/index.js:5213
+msgid "For example, if you set 3, the popup will be shown on the fourth visit!"
+msgstr ""
+
+#: build/index.js:5807
+#: src/edit.js:1645
+#: build/index.js:5222
+msgid "The Popup will appear only if you arrive from a specific Source!"
+msgstr ""
+
+#: build/index.js:5819
+#: src/edit.js:1661
+#: build/index.js:5238
+msgid "Enter Source"
+msgstr ""
+
+#: build/index.js:5830
+#: src/edit.js:1672
+#: build/index.js:5249
+msgid ""
+"Instructions: In the \"Source\" field, enter the desired string or identifier that you want to use as the source for the popup.\n"
+"                            When creating a link to the page with the popup, add the parameter \"?source=value\" to the popup URL, replacing \"value\" with the string or identifier entered in the \"Source\". For example, if the set source is \"homepage\", the link to create could be \"http://example.com/popup?source=homepage\".\n"
+"                            The popup will only appear when a visitor lands on the specified page in the popup URL and the source parameter matches the value entered in the \"Source\" field.\n"
+"                            You can test the functionality by visiting the page specified by the URL with the correct source parameter and verifying if the popup appears correctly."
+msgstr ""
+
+#: build/index.js:5850
+#: src/edit.js:1692
+#: build/index.js:5269
+msgid "The Popup will appear if you arrive from an external link to the site!"
+msgstr ""
+
+#: build/index.js:5878
+#: src/edit.js:1720
+#: build/index.js:5297
+msgid "The Popup will appear only if the user is logged in!"
+msgstr ""
+
+#: build/index.js:5906
+#: src/edit.js:1748
+#: build/index.js:5325
+msgid "Specify which visitors you want the Popup to appear to!"
+msgstr ""
+
+#: build/index.js:5928
+#: src/edit.js:1771
+#: build/index.js:5348
+msgid "It's important to note that this logic is based on the language reported by the visitor's browser and may not always be 100% accurate."
+msgstr ""
+
+#: build/index.js:5936
+#: src/edit.js:1780
+#: build/index.js:5357
+msgid "The Popup will appear based on the visitor's operating system!"
+msgstr ""
+
+#: build/index.js:5948
+#: src/edit.js:1796
+#: build/index.js:5373
+msgid "Windows"
+msgstr ""
+
+#: build/index.js:5954
+#: src/edit.js:1801
+#: build/index.js:5378
+msgid "Mac"
+msgstr ""
+
+#: build/index.js:5960
+#: src/edit.js:1806
+#: build/index.js:5383
+msgid "Linus"
+msgstr ""
+
+#: build/index.js:5973
+#: src/edit.js:1817
+#: build/index.js:5394
+msgid "The popup will appear based on the visitor's browser!"
+msgstr ""
+
+#: build/index.js:5984
+#: src/edit.js:1832
+#: build/index.js:5409
+msgid "Select Browser"
+msgstr ""
+
+#: build/index.js:5990
+#: src/edit.js:1838
+#: build/index.js:5415
+msgid "Resonsive"
+msgstr ""
+
+#: build/index.js:5999
+#: src/edit.js:1846
+#: build/index.js:5423
+msgid "The Popup will appear on Desktop devices!"
+msgstr ""
+
+#: build/index.js:6001
+#: build/index.js:6020
+#: build/index.js:6039
+#: src/edit.js:1850
+#: src/edit.js:1868
+#: src/edit.js:1886
+#: build/index.js:5427
+#: build/index.js:5445
+#: build/index.js:5463
+msgid "Range"
+msgstr ""
+
+#: build/index.js:6009
+#: src/edit.js:1856
+#: build/index.js:5433
+msgid "The default value is 769px!"
+msgstr ""
+
+#: build/index.js:6018
+#: build/index.js:6037
+#: src/edit.js:1864
+#: src/edit.js:1882
+#: build/index.js:5441
+#: build/index.js:5459
+msgid "The Popup will appear on Tablet devices!"
+msgstr ""
+
+#: build/index.js:6028
+#: src/edit.js:1874
+#: build/index.js:5451
+msgid "The default value is 768px!"
+msgstr ""
+
+#: build/index.js:6047
+#: src/edit.js:1892
+#: build/index.js:5469
+msgid "The default value is 480px!"
+msgstr ""
+
+#: build/index.js:6058
+#: src/edit.js:1905
+#: build/index.js:5482
+msgid "Set the date for the Popup publication."
+msgstr ""
+
+#: build/index.js:6066
+#: src/edit.js:1916
+#: build/index.js:5493
+msgid "Important: You must disable \"Activate the Popup in all case\" for it to work with scheduling!"
+msgstr ""
+
+#: build/index.js:6088
+#: build/index.js:6091
+#: src/edit.js:1946
+#: src/edit.js:1950
+#: build/index.js:5523
+#: build/index.js:5527
+msgid "Closing"
+msgstr ""
+
+#: build/index.js:6092
+#: src/edit.js:1952
+#: build/index.js:5529
+msgid "Disable reopening of the Popup for the same visitor"
+msgstr ""
+
+#: build/index.js:6097
+#: src/edit.js:1955
+#: build/index.js:5532
+msgid "If enabled when the visitor closes the Popup, the Popup will never reappear!"
+msgstr ""
+
+#: build/index.js:6104
+#: src/edit.js:1965
+#: build/index.js:5542
+msgid "If you need to reset this Popup from the Dashboard, remember to disable this control too!"
+msgstr ""
+
+#: build/index.js:6106
+#: src/edit.js:1969
+#: build/index.js:5546
+msgid "Choose the closing method"
+msgstr ""
+
+#: build/index.js:6126
+#: src/edit.js:1989
+#: build/index.js:5566
+msgid "Make sure you disable scroll locking in the body, in Advanced -> Body Behavior!"
+msgstr ""
+
+#: build/index.js:6132
+#: src/edit.js:2000
+#: build/index.js:5577
+msgid "Enable or disable body scrolling in Advanced -> Body Behavior!"
+msgstr ""
+
+#: build/index.js:6133
+#: src/edit.js:2006
+#: build/index.js:5583
+msgid "Closing Delay (ms)"
+msgstr ""
+
+#: build/index.js:6142
+#: src/edit.js:2014
+#: build/index.js:5591
+msgid "Opacity Delay (ms)"
+msgstr ""
+
+#: build/index.js:6151
+#: src/edit.js:2026
+#: build/index.js:5603
+msgid "Enter the class"
+msgstr ""
+
+#: build/index.js:6162
+#: src/edit.js:2034
+#: build/index.js:5611
+msgid "Also enable the close button!"
+msgstr ""
+
+#: build/index.js:6169
+#: src/edit.js:2044
+#: build/index.js:5621
+msgid "Set contdown (ms)"
+msgstr ""
+
+#: build/index.js:6178
+#: src/edit.js:2052
+#: build/index.js:5629
+msgid "Countdown text before seconds"
+msgstr ""
+
+#: build/index.js:6184
+#: src/edit.js:2057
+#: build/index.js:5634
+msgid "Countdown text after seconds"
+msgstr ""
+
+#: build/index.js:6190
+#: src/edit.js:2062
+#: build/index.js:5639
+msgid "Enable automatic closing"
+msgstr ""
+
+#: build/index.js:6195
+#: src/edit.js:2065
+#: build/index.js:5642
+msgid "If enabled the Popup will close automatically after the set seconds, if disabled the close button will appear at the end of the set seconds!"
+msgstr ""
+
+#: build/index.js:6196
+#: src/edit.js:2071
+#: build/index.js:5648
+msgid "Date Contdown"
+msgstr ""
+
+#: build/index.js:6204
+#: src/edit.js:2078
+#: build/index.js:5655
+msgid "Enable button closing"
+msgstr ""
+
+#: build/index.js:6212
+#: src/edit.js:2088
+#: build/index.js:5665
+msgid "Effect Flip"
+msgstr ""
+
+#: build/index.js:6217
+#: src/edit.js:2091
+#: build/index.js:5668
+msgid "Enable effect Flip!"
+msgstr ""
+
+#: build/index.js:6219
+#: src/edit.js:2100
+#: build/index.js:5677
+msgid "Day"
+msgstr ""
+
+#: build/index.js:6227
+#: src/edit.js:2106
+#: build/index.js:5683
+msgid "Month"
+msgstr ""
+
+#: build/index.js:6235
+#: src/edit.js:2112
+#: build/index.js:5689
+msgid "Year"
+msgstr ""
+
+#: build/index.js:6242
+#: src/edit.js:2117
+#: build/index.js:5694
+msgid "Select the language for the months"
+msgstr ""
+
+#: build/index.js:6249
+#: src/edit.js:2120
+#: build/index.js:5697
+msgid "Errors"
+msgstr ""
+
+#: build/index.js:6250
+#: src/edit.js:2122
+#: build/index.js:5699
+msgid "Form not set"
+msgstr ""
+
+#: build/index.js:6258
+#: src/edit.js:2128
+#: build/index.js:5705
+msgid "Incorrect age"
+msgstr ""
+
+#: build/index.js:6265
+#: src/edit.js:2133
+#: build/index.js:5710
+msgid "Welcome"
+msgstr ""
+
+#: build/index.js:6266
+#: src/edit.js:2135
+#: build/index.js:5712
+msgid "Welcome Message"
+msgstr ""
+
+#: build/index.js:6271
+#: src/edit.js:2138
+#: build/index.js:5715
+msgid "Enable a welcome message!"
+msgstr ""
+
+#: build/index.js:6275
+#: src/edit.js:2144
+#: build/index.js:5721
+msgid "Message"
+msgstr ""
+
+#: build/index.js:6282
+#: src/edit.js:2151
+#: build/index.js:5728
+msgid "Buttons"
+msgstr ""
+
+#: build/index.js:6283
+#: src/edit.js:2153
+#: build/index.js:5730
+msgid "Enable Button 1"
+msgstr ""
+
+#: build/index.js:6289
+#: src/edit.js:2160
+#: build/index.js:5737
+msgid "Button 1"
+msgstr ""
+
+#: build/index.js:6297
+#: src/edit.js:2166
+#: build/index.js:5743
+msgid "Button 1 Link"
+msgstr ""
+
+#: build/index.js:6319
+#: src/edit.js:2185
+#: build/index.js:5762
+msgid "Closure Popup"
+msgstr ""
+
+#: build/index.js:6342
+#: src/edit.js:2215
+#: build/index.js:5792
+msgid "WooCommerce"
+msgstr ""
+
+#: build/index.js:6351
+#: src/edit.js:2226
+#: build/index.js:5803
+msgid "For these controls to work you must have installed and activated the Woocommerce Plugin!"
+msgstr ""
+
+#: build/index.js:6357
+#: src/edit.js:2235
+#: build/index.js:5812
+msgid "Important: You need to set in \"Conditions\" -> \"Set how conditions should occur\" -> \"OR\" and deactivate \"Enable popup anyway\" for it to work with Woocommerce conditions!"
+msgstr ""
+
+#: build/index.js:6363
+#: src/edit.js:2241
+#: build/index.js:5818
+msgid "The Popup will appear when the cart is empty!"
+msgstr ""
+
+#: build/index.js:6372
+#: src/edit.js:2248
+#: build/index.js:5825
+msgid "The popup will appear when the cart contains a certain number of products!"
+msgstr ""
+
+#: build/index.js:6374
+#: src/edit.js:2252
+#: build/index.js:5829
+msgid "Enter the quantity of the products"
+msgstr ""
+
+#: build/index.js:6388
+#: src/edit.js:2265
+#: build/index.js:5842
+msgid "The Popup will appear when a specific product is in the cart!"
+msgstr ""
+
+#: build/index.js:6390
+#: src/edit.js:2270
+#: build/index.js:5847
+msgid "ID Product"
+msgstr ""
+
+#: build/index.js:6395
+#: src/edit.js:2273
+#: build/index.js:5850
+msgid "Enter the Product ID!"
+msgstr ""
+
+#: build/index.js:6402
+#: src/edit.js:2282
+#: build/index.js:5859
+msgid "To find the product ID, you can go to Products -> here you will see the names of the products along with their IDs."
+msgstr ""
+
+#: build/index.js:6410
+#: src/edit.js:2291
+#: build/index.js:5868
+msgid "The Popup will appear based on the amount in the cart!"
+msgstr ""
+
+#: build/index.js:6411
+#: src/edit.js:2295
+#: build/index.js:5872
+msgid "Select Logic"
+msgstr ""
+
+#: build/index.js:6417
+#: src/edit.js:2298
+#: build/index.js:5875
+msgid "Enter the total amount in the cart"
+msgstr ""
+
+#: build/index.js:6429
+#: src/edit.js:2312
+#: build/index.js:5889
+msgid "Structure"
+msgstr ""
+
+#: build/index.js:6432
+#: build/index.js:6550
+#: build/index.js:6773
+#: src/edit.js:2317
+#: src/edit.js:2412
+#: src/edit.js:2604
+#: build/index.js:5894
+#: build/index.js:5989
+#: build/index.js:6181
+msgid "Position"
+msgstr ""
+
+#: build/index.js:6445
+#: src/edit.js:2327
+#: build/index.js:5904
+msgid "Enable custom width for the popup."
+msgstr ""
+
+#: build/index.js:6445
+#: src/edit.js:2327
+#: build/index.js:5904
+msgid "Auto width will be applied to the popup."
+msgstr ""
+
+#: build/index.js:6466
+#: build/index.js:6641
+#: build/index.js:6864
+#: src/edit.js:2343
+#: src/edit.js:2492
+#: src/edit.js:2684
+#: build/index.js:5920
+#: build/index.js:6069
+#: build/index.js:6261
+msgid "Padding"
+msgstr ""
+
+#: build/index.js:6473
+#: build/index.js:6648
+#: build/index.js:6871
+#: build/index.js:7459
+#: build/index.js:7593
+#: src/edit.js:2348
+#: src/edit.js:2497
+#: src/edit.js:2689
+#: src/edit.js:3247
+#: src/edit.js:3356
+#: build/index.js:5925
+#: build/index.js:6074
+#: build/index.js:6266
+#: build/index.js:6824
+#: build/index.js:6933
+msgid "Border"
+msgstr ""
+
+#: build/index.js:6488
+#: build/index.js:6663
+#: build/index.js:6886
+#: build/index.js:7480
+#: build/index.js:7608
+#: src/edit.js:2360
+#: src/edit.js:2509
+#: src/edit.js:2701
+#: src/edit.js:3268
+#: src/edit.js:3368
+#: build/index.js:5937
+#: build/index.js:6086
+#: build/index.js:6278
+#: build/index.js:6845
+#: build/index.js:6945
+msgid "Border Color"
+msgstr ""
+
+#: build/index.js:6503
+#: build/index.js:6693
+#: build/index.js:6916
+#: build/index.js:7506
+#: build/index.js:7632
+#: build/index.js:7728
+#: build/index.js:7735
+#: src/edit.js:2372
+#: src/edit.js:2531
+#: src/edit.js:2723
+#: src/edit.js:3289
+#: src/edit.js:3388
+#: src/edit.js:3482
+#: src/edit.js:3492
+#: build/index.js:5949
+#: build/index.js:6108
+#: build/index.js:6300
+#: build/index.js:6866
+#: build/index.js:6965
+#: build/index.js:7059
+#: build/index.js:7069
+msgid "Background Color"
+msgstr ""
+
+#: build/index.js:6518
+#: build/index.js:6708
+#: build/index.js:6931
+#: build/index.js:7417
+#: src/edit.js:2386
+#: src/edit.js:2545
+#: src/edit.js:2737
+#: src/edit.js:3203
+#: build/index.js:5963
+#: build/index.js:6122
+#: build/index.js:6314
+#: build/index.js:6780
+msgid "Box Shadow"
+msgstr ""
+
+#: build/index.js:6558
+#: build/index.js:6781
+#: src/edit.js:2421
+#: src/edit.js:2613
+#: build/index.js:5998
+#: build/index.js:6190
+msgid "Left (%)"
+msgstr ""
+
+#: build/index.js:6569
+#: build/index.js:6792
+#: src/edit.js:2434
+#: src/edit.js:2626
+#: build/index.js:6011
+#: build/index.js:6203
+msgid "Top (%)"
+msgstr ""
+
+#: build/index.js:6580
+#: build/index.js:6803
+#: src/edit.js:2447
+#: src/edit.js:2639
+#: build/index.js:6024
+#: build/index.js:6216
+msgid "Right (%)"
+msgstr ""
+
+#: build/index.js:6591
+#: build/index.js:6814
+#: src/edit.js:2460
+#: src/edit.js:2652
+#: build/index.js:6037
+#: build/index.js:6229
+msgid "Bottom (%)"
+msgstr ""
+
+#: build/index.js:6739
+#: build/index.js:6962
+#: src/edit.js:2567
+#: src/edit.js:2759
+#: build/index.js:6144
+#: build/index.js:6336
+msgid "Rotation Hover"
+msgstr ""
+
+#: build/index.js:6744
+#: build/index.js:6967
+#: src/edit.js:2570
+#: src/edit.js:2762
+#: build/index.js:6147
+#: build/index.js:6339
+msgid "Enable rotation on the hover!"
+msgstr ""
+
+#: build/index.js:6748
+#: build/index.js:6971
+#: src/edit.js:2576
+#: src/edit.js:2768
+#: build/index.js:6153
+#: build/index.js:6345
+msgid "Rotation"
+msgstr ""
+
+#: build/index.js:6995
+#: src/edit.js:2798
+#: build/index.js:6375
+msgid "Font Sixe"
+msgstr ""
+
+#: build/index.js:7006
+#: src/edit.js:2807
+#: build/index.js:6384
+msgid "Vertical Align"
+msgstr ""
+
+#: build/index.js:7017
+#: src/edit.js:2816
+#: build/index.js:6393
+msgid "Horizontal Align"
+msgstr ""
+
+#: build/index.js:7028
+#: src/edit.js:2825
+#: build/index.js:6402
+msgid "Padding Top/Bottom Seconds"
+msgstr ""
+
+#: build/index.js:7039
+#: src/edit.js:2834
+#: build/index.js:6411
+msgid "Padding Left/Right Seconds"
+msgstr ""
+
+#: build/index.js:7050
+#: src/edit.js:2843
+#: build/index.js:6420
+msgid "Border Radius Seconds"
+msgstr ""
+
+#: build/index.js:7060
+#: build/index.js:7119
+#: build/index.js:7308
+#: src/edit.js:2851
+#: src/edit.js:2910
+#: src/edit.js:3092
+#: build/index.js:6428
+#: build/index.js:6487
+#: build/index.js:6669
+msgid "Font Weight Text"
+msgstr ""
+
+#: build/index.js:7086
+#: src/edit.js:2873
+#: build/index.js:6450
+msgid "Background Color Seconds"
+msgstr ""
+
+#: build/index.js:7100
+#: build/index.js:7271
+#: build/index.js:7427
+#: build/index.js:7545
+#: src/edit.js:2894
+#: src/edit.js:3063
+#: src/edit.js:3221
+#: src/edit.js:3315
+#: build/index.js:6471
+#: build/index.js:6640
+#: build/index.js:6798
+#: build/index.js:6892
+msgid "Gap"
+msgstr ""
+
+#: build/index.js:7109
+#: src/edit.js:2902
+#: build/index.js:6479
+msgid "Font Sixe Text"
+msgstr ""
+
+#: build/index.js:7127
+#: src/edit.js:2914
+#: build/index.js:6491
+msgid "Font Sixe Count"
+msgstr ""
+
+#: build/index.js:7137
+#: src/edit.js:2922
+#: build/index.js:6499
+msgid "Font Weight Count"
+msgstr ""
+
+#: build/index.js:7145
+#: src/edit.js:2926
+#: build/index.js:6503
+msgid "Line Height Count"
+msgstr ""
+
+#: build/index.js:7155
+#: build/index.js:7162
+#: build/index.js:7402
+#: build/index.js:7409
+#: src/edit.js:2934
+#: src/edit.js:2944
+#: src/edit.js:3186
+#: src/edit.js:3196
+#: build/index.js:6511
+#: build/index.js:6521
+#: build/index.js:6763
+#: build/index.js:6773
+msgid "Color Text"
+msgstr ""
+
+#: build/index.js:7172
+#: build/index.js:7179
+#: src/edit.js:2952
+#: src/edit.js:2962
+#: build/index.js:6529
+#: build/index.js:6539
+msgid "Color Count"
+msgstr ""
+
+#: build/index.js:7189
+#: build/index.js:7196
+#: src/edit.js:2970
+#: src/edit.js:2980
+#: build/index.js:6547
+#: build/index.js:6557
+msgid "Color Circle"
+msgstr ""
+
+#: build/index.js:7206
+#: build/index.js:7213
+#: src/edit.js:2988
+#: src/edit.js:2998
+#: build/index.js:6565
+#: build/index.js:6575
+msgid "Color Circle Days"
+msgstr ""
+
+#: build/index.js:7223
+#: build/index.js:7230
+#: src/edit.js:3006
+#: src/edit.js:3016
+#: build/index.js:6583
+#: build/index.js:6593
+msgid "Color Circle Hours"
+msgstr ""
+
+#: build/index.js:7240
+#: build/index.js:7247
+#: src/edit.js:3024
+#: src/edit.js:3034
+#: build/index.js:6601
+#: build/index.js:6611
+msgid "Color Circle Minutes"
+msgstr ""
+
+#: build/index.js:7257
+#: build/index.js:7264
+#: src/edit.js:3042
+#: src/edit.js:3052
+#: build/index.js:6619
+#: build/index.js:6629
+msgid "Color Circle Seconds"
+msgstr ""
+
+#: build/index.js:7282
+#: src/edit.js:3072
+#: build/index.js:6649
+msgid "Border Radius Top Element"
+msgstr ""
+
+#: build/index.js:7290
+#: src/edit.js:3078
+#: build/index.js:6655
+msgid "Border Radius Bottom Element"
+msgstr ""
+
+#: build/index.js:7298
+#: src/edit.js:3084
+#: build/index.js:6661
+msgid "Separator Border"
+msgstr ""
+
+#: build/index.js:7317
+#: src/edit.js:3096
+#: build/index.js:6673
+msgid "Background Color Top Element"
+msgstr ""
+
+#: build/index.js:7334
+#: src/edit.js:3114
+#: build/index.js:6691
+msgid "Background Color Bottom Element"
+msgstr ""
+
+#: build/index.js:7351
+#: src/edit.js:3132
+#: build/index.js:6709
+msgid "Color Separator Border"
+msgstr ""
+
+#: build/index.js:7368
+#: build/index.js:7375
+#: src/edit.js:3150
+#: src/edit.js:3160
+#: build/index.js:6727
+#: build/index.js:6737
+msgid "Color Count Top"
+msgstr ""
+
+#: build/index.js:7385
+#: src/edit.js:3168
+#: build/index.js:6745
+msgid "Color Count Bottom"
+msgstr ""
+
+#: build/index.js:7426
+#: src/edit.js:3219
+#: build/index.js:6796
+msgid "FORM"
+msgstr ""
+
+#: build/index.js:7438
+#: src/edit.js:3230
+#: build/index.js:6807
+msgid "Height"
+msgstr ""
+
+#: build/index.js:7449
+#: build/index.js:7622
+#: src/edit.js:3239
+#: src/edit.js:3380
+#: build/index.js:6816
+#: build/index.js:6957
+msgid "Size"
+msgstr ""
+
+#: build/index.js:7478
+#: src/edit.js:3263
+#: build/index.js:6840
+msgid "Not all browsers support the selector border radius!"
+msgstr ""
+
+#: build/index.js:7496
+#: src/edit.js:3281
+#: build/index.js:6858
+msgid "Margin Bottom"
+msgstr ""
+
+#: build/index.js:7544
+#: src/edit.js:3313
+#: build/index.js:6890
+msgid "BUTTONS"
+msgstr ""
+
+#: build/index.js:7556
+#: src/edit.js:3324
+#: build/index.js:6901
+msgid "Padding Top"
+msgstr ""
+
+#: build/index.js:7565
+#: src/edit.js:3332
+#: build/index.js:6909
+msgid "Padding Bottom"
+msgstr ""
+
+#: build/index.js:7574
+#: src/edit.js:3340
+#: build/index.js:6917
+msgid "Padding Left"
+msgstr ""
+
+#: build/index.js:7583
+#: src/edit.js:3348
+#: build/index.js:6925
+msgid "Padding Right"
+msgstr ""
+
+#: build/index.js:7669
+#: src/edit.js:3414
+#: build/index.js:6991
+msgid "Z Index"
+msgstr ""
+
+#: build/index.js:7698
+#: src/edit.js:3451
+#: build/index.js:7028
+msgid "Body Behavior"
+msgstr ""
+
+#: build/index.js:7702
+#: src/edit.js:3457
+#: build/index.js:7034
+msgid "Overflow"
+msgstr ""
+
+#: build/index.js:7707
+#: src/edit.js:3460
+#: build/index.js:7037
+msgid "Adjust the body overflow when the Popup opens!"
+msgstr ""
+
+#: build/index.js:7742
+#: src/edit.js:3499
+#: build/index.js:7076
+msgid "Blur filter"
+msgstr ""
+
+#: build/index.js:7748
+#: src/edit.js:3505
+#: build/index.js:7082
+msgid "Filter intensity"
+msgstr ""
+
+#: build/index.js:7764
+#: src/edit.js:3520
+#: build/index.js:7097
+msgid "Set a background image"
+msgstr ""
+
+#: build/index.js:7775
+#: src/edit.js:3535
+#: build/index.js:7112
+msgid "Image"
+msgstr ""
+
+#: build/index.js:7786
+#: src/edit.js:3543
+#: build/index.js:7120
+msgid "Add Image"
+msgstr ""
+
+#: build/index.js:7807
+#: src/edit.js:3556
+#: build/index.js:7133
+msgid "Change Image"
+msgstr ""
+
+#: build/index.js:7809
+#: src/edit.js:3566
+#: build/index.js:7143
+msgid "Animation"
+msgstr ""
+
+#: build/index.js:7812
+#: src/edit.js:3571
+#: build/index.js:7148
+msgid "Popup Entrance Animation"
+msgstr ""
+
+#: build/index.js:7821
+#: src/edit.js:3576
+#: build/index.js:7153
+msgid "Animation In"
+msgstr ""
+
+#: build/index.js:7822
+#: src/edit.js:3579
+#: build/index.js:7156
+msgid "Duration (s)"
+msgstr ""
+
+#: build/index.js:7833
+#: src/edit.js:3587
+#: build/index.js:7164
+msgid "Replay Animation"
+msgstr ""
+
+#: build/index.js:7835
+#: src/edit.js:3592
+#: build/index.js:7169
+msgid "Popup Close Animation"
+msgstr ""
+
+#: build/index.js:7841
+#: src/edit.js:3600
+#: build/index.js:7177
+msgid "You can set a popup closing time for a smoother effect!"
+msgstr ""
+
+#: build/index.js:7842
+#: src/edit.js:3603
+#: build/index.js:7180
+msgid "Duration (ms)"
+msgstr ""
+
+#: build/index.js:8037
+#: build/index.js:8152
+#: src/edit.js:3795
+#: src/edit.js:3867
+#: build/index.js:7372
+#: build/index.js:7444
+msgid "Days"
+msgstr ""
+
+#: build/index.js:8064
+#: build/index.js:8177
+#: src/edit.js:3810
+#: src/edit.js:3883
+#: build/index.js:7387
+#: build/index.js:7460
+msgid "Hours"
+msgstr ""
+
+#: build/index.js:8091
+#: build/index.js:8202
+#: src/edit.js:3825
+#: src/edit.js:3899
+#: build/index.js:7402
+#: build/index.js:7476
+msgid "Minutes"
+msgstr ""
+
+#: build/index.js:8309
+#: src/index.js:11
+#: build/index.js:7549
+msgid "CocoPopup Icon"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block title"
+msgid "CocoPopup"
+msgstr ""
+
+#: build/block.json
+#: src/block.json
+msgctxt "block description"
+msgid "Enhance engagement and conversions with CocoPopup."
+msgstr ""

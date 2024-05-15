@@ -32,7 +32,7 @@ $allowed_tags_extensions = cocopopup_get_allowed_tags_extensions();
             <img src="<?php echo esc_url( plugins_url( 'images/cocopopup.png', __FILE__ ) ); ?>" alt="<?php esc_html_e( 'CocoPopup', 'cocopopup' )?>" />
         </div>
         <div class="cocopopup-menu">
-            <p style="text-decoration:underline;font-weight:bold"><?php esc_html_e('V 1.0.3','cocopopup')?></p> 
+            <p style="text-decoration:underline;font-weight:bold"><?php esc_html_e('V 1.0.2','cocopopup')?></p> 
             <button id="theme-toggle">
                 <span class="theme-icon" id="sun-icon">&#9728;</span> <!-- Sole -->
                 <span class="theme-icon" id="moon-icon">&#9790;</span> <!-- Luna -->

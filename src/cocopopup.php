@@ -3,13 +3,12 @@
  * Plugin Name: CocoPopup
  * Plugin URI: https://www.wpcocoblock.com/popup/
  * Description: Elevate user engagement and drive conversions with CocoPopup  – the ultimate WordPress plugin for creating stunning and effective popups. With intuitive customization and advanced targeting, CocoPopup helps you deliver the perfect message to your audience, boosting your website's performance effortlessly.
- * Version: 1.0.3
+ * Version: 1.0.2
  * Author: Franchi Web Design
  * Author URI: https://franchiwebdesign.com/
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: cocopopup
- * Domain Path: /languages
  *
  * @package cocopopup
  */
@@ -27,15 +26,6 @@ function cocopopup_block_init() {
     register_block_type(__DIR__ . '/build');}
 
 add_action( 'init', 'cocopopup_block_init' );
-
-/*----------------------------------------------------------------------------------
-    Load Textdomain
------------------------------------------------------------------------------------*/
-
-function cocopopup_upload_plugin_translation_file() {
-    load_plugin_textdomain('cocopopup', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-}
-add_action('plugins_loaded', 'cocopopup_upload_plugin_translation_file');
 
 /*----------------------------------------------------------------------------------
     Category Blocks

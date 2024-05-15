@@ -1,0 +1,1170 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cp/cocopopup",
+  "version": "1.0.1",
+  "title": "CocoPopup",
+  "category": "cocopopup-category",
+  "description": "Enhance engagement and conversions with CocoPopup.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "cocopopup",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "delay": {
+      "type": "number",
+      "default": 1000
+    },
+    "selectOptionPage": {
+      "type": "string",
+      "default": "page-1"
+    },
+    "scrollTimeout": {
+      "type": "number",
+      "default": 5000
+    },
+    "textButton": {
+      "type": "string",
+      "default": "X"
+    },
+    "textButton2": {
+      "type": "string",
+      "default": "X"
+    },
+    "popupClosureCount": {
+      "type": "number",
+      "default": 0
+    },
+    "popupName": {
+      "type": "string"
+    },
+    "popupId": {
+      "type": "string"
+    },
+    "exitVisitNumber": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitUrl": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitLogUser": {
+      "type": "boolean",
+      "default": false
+    },
+    "timeExit": {
+      "type": "number",
+      "default": 200
+    },
+    "scrollDirection": {
+      "type": "string",
+      "default": "down"
+    },
+    "timeScrollDirection": {
+      "type": "number",
+      "default": 500
+    },
+    "exitDesktop": {
+      "type": "boolean",
+      "default": true
+    },
+    "exitTablet": {
+      "type": "boolean",
+      "default": true
+    },
+    "exitMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "pxDesktop": {
+      "type": "number",
+      "default": 769
+    },
+    "pxTablet": {
+      "type": "number",
+      "default": 768
+    },
+    "pxMobile": {
+      "type": "number",
+      "default": 480
+    },
+    "popupClassName": {
+      "type": "string",
+      "default": ""
+    },
+    "numberVisit": {
+      "type": "number",
+      "default": 10
+    },
+    "popupUrlExt": {
+      "type": "string",
+      "default": ""
+    },
+    "timeUrl": {
+      "type": "number",
+      "default": 0
+    },
+    "timeExternaLink": {
+      "type": "number",
+      "default": 0
+    },
+    "timeLogged": {
+      "type": "number",
+      "default": 0
+    },
+    "disablePopupClosing": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitLanguage": {
+      "type": "boolean",
+      "default": false
+    },
+    "selectedLanguages": {
+      "type": "string",
+      "default": "en"
+    },
+    "exitSchedule": {
+      "type": "boolean",
+      "default": false
+    },
+    "date": {
+      "type": "string",
+      "default": null
+    },
+    "endDate": {
+      "type": "string",
+      "default": null
+    },
+    "exitOperationSystem": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitWindows": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitMac": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitLinus": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitBrowser": {
+      "type": "boolean",
+      "default": false
+    },
+    "selectBrowser": {
+      "type": "string",
+      "default": "chrome"
+    },
+    "timeClosedPopup": {
+      "type": "number",
+      "default": 2000
+    },
+    "exitWooCartEmpty": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitWooCartCount": {
+      "type": "boolean",
+      "default": false
+    },
+    "exitWooCartId": {
+      "type": "boolean",
+      "default": false
+    },
+    "numberProductCart": {
+      "type": "number",
+      "default": 0
+    },
+    "productId": {
+      "type": "string"
+    },
+    "exitWooCartAmount": {
+      "type": "boolean",
+      "default": false
+    },
+    "amountProductCart": {
+      "type": "number",
+      "default": 0
+    },
+    "selectedAmountCart": {
+      "type": "string",
+      "default": "lower"
+    },
+    "conditionAndOr": {
+      "type": "string",
+      "default": "or"
+    },
+    "classNameElement": {
+      "type": "string",
+      "default": ""
+    },
+    "reopenPopup": {
+      "type": "boolean",
+      "default": false
+    },
+    "classNameElementHover": {
+      "type": "string",
+      "default": ""
+    },
+    "exitAll": {
+      "type": "boolean",
+      "default": true
+    },
+    "fileAudio": {
+      "type": "string"
+    },
+    "positionPopup": {
+      "type": "string",
+      "default": "center center"
+    },
+    "selectedEvents": {
+      "type": "string",
+      "default": "exitTime"
+    },
+    "selectedClosed": {
+      "type": "string",
+      "default": "close-instant"
+    },
+    "openSound": {
+      "type": "boolean",
+      "default": false
+    },
+    "timeOpacityExit": {
+      "type": "number",
+      "default": 2000
+    },
+    "timeOpacity": {
+      "type": "number",
+      "default": 2000
+    },
+    "colorContdown": {
+      "type": "string",
+      "default": "#0000006E"
+    },
+    "secondContdown": {
+      "type": "number",
+      "default": 20
+    },
+    "textContdownBefore": {
+      "type": "string",
+      "default": "The Popup will close in"
+    },
+    "textContdownAfter": {
+      "type": "string",
+      "default": "seconds"
+    },
+    "overflowBody": {
+      "type": "boolean",
+      "default": true
+    },
+    "filterBody": {
+      "type": "boolean",
+      "default": false
+    },
+    "sizeContdown": {
+      "type": "number",
+      "default": 16
+    },
+    "verticalContdown": {
+      "type": "number",
+      "default": 10
+    },
+    "horizontalContdown": {
+      "type": "number",
+      "default": 10
+    },
+    "colorContdownText": {
+      "type": "string",
+      "default": "#333"
+    },
+    "borderStylePopup": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderWidthPopup": {
+      "type": "object",
+      "default": {
+        "top": "1px",
+        "right": "1px",
+        "bottom": "1px",
+        "left": "1px"
+      }
+    },
+    "borderRadiusPopup": {
+      "type": "object",
+      "default": {
+        "top": "8px",
+        "left": "8px",
+        "bottom": "8px",
+        "right": "8px"
+      }
+    },
+    "borderColorPopup": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "borderColorHoverPopup": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "transitionBorderColorPopup": {
+      "type": "number",
+      "default": 0.5
+    },
+    "paddingPopup": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundColorHover": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundGradient": {
+      "type": "string"
+    },
+    "backgroundGradientHover": {
+      "type": "string"
+    },
+    "transitionBackgroundColor": {
+      "type": "number",
+      "default": 0.5
+    },
+    "boxShadow": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset"
+      }
+    },
+    "hasHoverControl": {
+      "type": "boolean",
+      "default": false
+    },
+    "boxShadowHover": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset",
+        "color": "#FFFFFF"
+      }
+    },
+    "transitionShadow": {
+      "type": "number",
+      "default": 0.5
+    },
+    "zIndexPopup": {
+      "type": "number",
+      "default": 999
+    },
+    "zIndexButton": {
+      "type": "number",
+      "default": 999
+    },
+    "selectedAnimationPopupIn": {
+      "type": "string",
+      "default": "none"
+    },
+    "durationAnimation": {
+      "type": "number",
+      "default": 1.5
+    },
+    "opacityPopup": {
+      "type": "number",
+      "default": 1
+    },
+    "positionPopupButton": {
+      "type": "string",
+      "default": "top right"
+    },
+    "enableButton2": {
+      "type": "boolean",
+      "default": false
+    },
+    "positionPopupButton2": {
+      "type": "string",
+      "default": "top right"
+    },
+    "paddingPopupButton": {
+      "type": "object",
+      "default": {
+        "top": "6px",
+        "right": "6px",
+        "bottom": "6px",
+        "left": "6px"
+      }
+    },
+    "borderWidthPopupButton": {
+      "type": "object",
+      "default": {
+        "top": "1px",
+        "right": "1px",
+        "bottom": "1px",
+        "left": "1px"
+      }
+    },
+    "borderStylePopupButton": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderRadiusPopupButton": {
+      "type": "object",
+      "default": {
+        "top": "2px",
+        "left": "2px",
+        "bottom": "2px",
+        "right": "2px"
+      }
+    },
+    "borderColorPopupButton": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "borderColorHoverPopupButton": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "transitionBorderColorPopupButton": {
+      "type": "number",
+      "default": 0.5
+    },
+    "backgroundColorButton": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundColorHoverButton": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundGradientButton": {
+      "type": "string"
+    },
+    "backgroundGradientHoverButton": {
+      "type": "string"
+    },
+    "transitionBackgroundColorButton": {
+      "type": "number",
+      "default": 0.5
+    },
+    "boxShadowButton": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset"
+      }
+    },
+    "hasHoverControlButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "boxShadowHoverButton": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset"
+      }
+    },
+    "transitionShadowButton": {
+      "type": "number",
+      "default": 0.5
+    },
+    "opacityPopupButton": {
+      "type": "number",
+      "default": 1
+    },
+    "paddingPopupButton2": {
+      "type": "object",
+      "default": {
+        "top": "6px",
+        "right": "6px",
+        "bottom": "6px",
+        "left": "6px"
+      }
+    },
+    "borderWidthPopupButton2": {
+      "type": "object",
+      "default": {
+        "top": "1px",
+        "right": "1px",
+        "bottom": "1px",
+        "left": "1px"
+      }
+    },
+    "borderStylePopupButton2": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderRadiusPopupButton2": {
+      "type": "object",
+      "default": {
+        "top": "2px",
+        "left": "2px",
+        "bottom": "2px",
+        "right": "2px"
+      }
+    },
+    "borderColorPopupButton2": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "borderColorHoverPopupButton2": {
+      "type": "string",
+      "default": "#cccccc"
+    },
+    "transitionBorderColorPopupButton2": {
+      "type": "number",
+      "default": 0.5
+    },
+    "backgroundColorButton2": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundColorHoverButton2": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundGradientButton2": {
+      "type": "string"
+    },
+    "backgroundGradientHoverButton2": {
+      "type": "string"
+    },
+    "transitionBackgroundColorButton2": {
+      "type": "number",
+      "default": 0.5
+    },
+    "boxShadowButton2": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset"
+      }
+    },
+    "hasHoverControlButton2": {
+      "type": "boolean",
+      "default": false
+    },
+    "boxShadowHoverButton2": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset"
+      }
+    },
+    "transitionShadowButton2": {
+      "type": "number",
+      "default": 0.5
+    },
+    "opacityPopupButton2": {
+      "type": "number",
+      "default": 1
+    },
+    "leftButton": {
+      "type": "number",
+      "default": 5
+    },
+    "topButton": {
+      "type": "number",
+      "default": 5
+    },
+    "rightButton": {
+      "type": "number",
+      "default": 5
+    },
+    "bottomButton": {
+      "type": "number",
+      "default": 5
+    },
+    "leftButton2": {
+      "type": "number",
+      "default": 10
+    },
+    "topButton2": {
+      "type": "number",
+      "default": 5
+    },
+    "rightButton2": {
+      "type": "number",
+      "default": 10
+    },
+    "bottomButton2": {
+      "type": "number",
+      "default": 10
+    },
+    "sizeButton": {
+      "type": "number",
+      "default": 14
+    },
+    "sizeButton2": {
+      "type": "number",
+      "default": 14
+    },
+    "colorTextButton": {
+      "type": "string",
+      "default": "#505050"
+    },
+    "colorTextButton2": {
+      "type": "string",
+      "default": "#505050"
+    },
+    "transitionColorTextButton": {
+      "type": "number",
+      "default": 0.5
+    },
+    "transitionColorTextButton2": {
+      "type": "number",
+      "default": 0.5
+    },
+    "colorTextButtonHover": {
+      "type": "string",
+      "default": "#505050"
+    },
+    "colorTextButton2Hover": {
+      "type": "string",
+      "default": "#505050"
+    },
+    "zIndexButton2": {
+      "type": "number",
+      "default": 999
+    },
+    "enableCustomWidthPopup": {
+      "type": "boolean",
+      "default": false
+    },
+    "widthPopup": {
+      "type": "number",
+      "default": 600
+    },
+    "widthPopupTablet": {
+      "type": "number",
+      "default": 500
+    },
+    "widthPopupMobile": {
+      "type": "number",
+      "default": 300
+    },
+    "pxWidthPopup": {
+      "type": "string",
+      "default": "px"
+    },
+    "classClosePopup": {
+      "type": "string"
+    },
+    "enableRotateHoverButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "rotateHoverButton": {
+      "type": "number",
+      "default": 0
+    },
+    "transitionRotateHoverButton": {
+      "type": "number",
+      "default": 0.5
+    },
+    "enableRotateHoverButton2": {
+      "type": "boolean",
+      "default": false
+    },
+    "rotateHoverButton2": {
+      "type": "number",
+      "default": 0
+    },
+    "transitionRotateHoverButton2": {
+      "type": "number",
+      "default": 0.5
+    },
+    "percentagePage": {
+      "type": "number",
+      "default": 50
+    },
+    "selectedDate": {
+      "type": "string",
+      "default": ""
+    },
+    "selectedContdown": {
+      "type": "string",
+      "default": "seconds"
+    },
+    "dateContdown": {
+      "type": "string",
+      "default": ""
+    },
+    "contdownSecondAutomaticClose": {
+      "type": "boolean",
+      "default": false
+    },
+    "contDays": {
+      "type": "string",
+      "default": "Days"
+    },
+    "contHours": {
+      "type": "string",
+      "default": "Hours"
+    },
+    "contMinutes": {
+      "type": "string",
+      "default": "Minutes"
+    },
+    "contSeconds": {
+      "type": "string",
+      "default": "Seconds"
+    },
+    "gapContdown": {
+      "type": "number",
+      "default": 25
+    },
+    "borderRadiusCont": {
+      "type": "object",
+      "default": {
+        "top": "5px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "5px"
+      }
+    },
+    "borderRadiusContBottom": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "5px",
+        "bottom": "5px",
+        "left": "0px"
+      }
+    },
+    "borderSepCont": {
+      "type": "number",
+      "default": 1
+    },
+    "weightCont": {
+      "type": "string",
+      "default": "400"
+    },
+    "colorContdownTop": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "colorContdownBottom": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "colorContdownCount": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "colorContdownCountBottom": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "colorContdownSeparator": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "boxShadowCont": {
+      "type": "object",
+      "default": {
+        "hOffset": 0,
+        "vOffset": 0,
+        "blur": 0,
+        "spread": 0,
+        "type": "outset"
+      }
+    },
+    "enableFlipCont": {
+      "type": "boolean",
+      "default": true
+    },
+    "sizeContdownCount": {
+      "type": "number",
+      "default": 50
+    },
+    "weightContN": {
+      "type": "string",
+      "default": "400"
+    },
+    "lineHeightContdownCount": {
+      "type": "number",
+      "default": 30
+    },
+    "colorContdownCircle": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "colorContdownCircleDays": {
+      "type": "string",
+      "default": "#e80101"
+    },
+    "colorContdownCircleHours": {
+      "type": "string",
+      "default": "#ffd700"
+    },
+    "colorContdownCircleMinutes": {
+      "type": "string",
+      "default": "#dfa8b1"
+    },
+    "colorContdownCircleSeconds": {
+      "type": "string",
+      "default": "#b0e0e6"
+    },
+    "filterBodyImage": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "textDayAge": {
+      "type": "string",
+      "default": "Day"
+    },
+    "textMonthAge": {
+      "type": "string",
+      "default": "Month"
+    },
+    "textYearAge": {
+      "type": "string",
+      "default": "Year"
+    },
+    "selectedAgeMonth": {
+      "type": "string",
+      "default": "en"
+    },
+    "errorFormAge": {
+      "type": "string",
+      "default": "You need to set your date of birth!"
+    },
+    "errorAgeAge": {
+      "type": "string",
+      "default": "Sorry, you are not old enough to log in!"
+    },
+    "enableWelcomeAge": {
+      "type": "boolean",
+      "default": false
+    },
+    "welcomeAge": {
+      "type": "string",
+      "default": "Welcome to our site!"
+    },
+    "linkButtonOneAge": {
+      "type": "string"
+    },
+    "linkButtonOneAgeWindow": {
+      "type": "boolean",
+      "default": false
+    },
+    "buttonOneAge": {
+      "type": "string",
+      "default": "I'm not 18"
+    },
+    "buttonTwoAge": {
+      "type": "string",
+      "default": "Confirm age"
+    },
+    "enableButtonOne": {
+      "type": "boolean",
+      "default": true
+    },
+    "timecolsePopupAge": {
+      "type": "number",
+      "default": 3000
+    },
+    "gapFormAge": {
+      "type": "number",
+      "default": 20
+    },
+    "heightFormAge": {
+      "type": "number",
+      "default": 36
+    },
+    "sizeFormAge": {
+      "type": "number",
+      "default": 16
+    },
+    "borderWidthFormAge": {
+      "type": "number",
+      "default": 1
+    },
+    "borderStyleFormAge": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderRadiusFormAge": {
+      "type": "number",
+      "default": 4
+    },
+    "borderColorFormAge": {
+      "type": "string",
+      "default": "#ccc"
+    },
+    "borderColorHoverFormAge": {
+      "type": "string",
+      "default": "#ccc"
+    },
+    "transitionBorderColorFormAge": {
+      "type": "number",
+      "default": 0.5
+    },
+    "marginFormAge": {
+      "type": "number",
+      "default": 20
+    },
+    "backgroundColorFormAge": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "backgroundGradientFormAge": {
+      "type": "string"
+    },
+    "backgroundColorHoverFormAge": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "backgroundGradientHoverFormAge": {
+      "type": "string"
+    },
+    "transitionBackgroundColorFormAge": {
+      "type": "number",
+      "default": 0.5
+    },
+    "colorFormAge": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "colorHoverFormAge": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "transitionColorFormAge": {
+      "type": "number",
+      "default": 0.5
+    },
+    "gapButtonAge": {
+      "type": "number",
+      "default": 20
+    },
+    "paddingButtonAgeTop": {
+      "type": "number",
+      "default": 8
+    },
+    "paddingButtonAgeBottom": {
+      "type": "number",
+      "default": 8
+    },
+    "paddingButtonAgeLeft": {
+      "type": "number",
+      "default": 16
+    },
+    "paddingButtonAgeRight": {
+      "type": "number",
+      "default": 16
+    },
+    "borderWidthButtonAge": {
+      "type": "number",
+      "default": 1
+    },
+    "borderStyleButtonAge": {
+      "type": "string",
+      "default": "solid"
+    },
+    "borderRadiusButtonAge": {
+      "type": "number",
+      "default": 4
+    },
+    "borderColorButtonAge": {
+      "type": "string",
+      "default": "#ccc"
+    },
+    "borderColorHoverButtonAge": {
+      "type": "string",
+      "default": "#ccc"
+    },
+    "transitionBorderColorButtonAge": {
+      "type": "number",
+      "default": 0.5
+    },
+    "sizeButtonAge": {
+      "type": "number",
+      "default": 16
+    },
+    "backgroundColorButtonAge": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "backgroundGradientButtonAge": {
+      "type": "string"
+    },
+    "backgroundColorHoverButtonAge": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "backgroundGradientHoverButtonAge": {
+      "type": "string"
+    },
+    "transitionBackgroundColorButtonAge": {
+      "type": "number",
+      "default": 0.5
+    },
+    "colorButtonAge": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "colorHoverButtonAge": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "transitionColorButtonAge": {
+      "type": "number",
+      "default": 0.5
+    },
+    "backgroundColorContdownSeconds": {
+      "type": "string",
+      "default": "#6224cc"
+    },
+    "borderRadiusContdownSeconds": {
+      "type": "number",
+      "default": 100
+    },
+    "paddingContdownSeconds": {
+      "type": "number",
+      "default": 5
+    },
+    "paddingContdownSecondsRight": {
+      "type": "number",
+      "default": 10
+    },
+    "linkRedirectButtonNo": {
+      "type": "string"
+    },
+    "linkRedirectButtonNoWindow": {
+      "type": "boolean",
+      "default": true
+    },
+    "linkRedirectButtonYes": {
+      "type": "string"
+    },
+    "linkRedirectButtonYesWindow": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableBlur": {
+      "type": "boolean",
+      "default": false
+    },
+    "blurIntens": {
+      "type": "number",
+      "default": 4
+    },
+    "enabelButtonClass": {
+      "type": "boolean",
+      "default": false
+    },
+    "sizeButtonTablet": {
+      "type": "number",
+      "default": 16
+    },
+    "sizeButtonMobile": {
+      "type": "number",
+      "default": 16
+    },
+    "pxButton": {
+      "type": "string",
+      "default": "px"
+    },
+    "weightButton": {
+      "type": "string",
+      "default": "600"
+    },
+    "trasformButton": {
+      "type": "string",
+      "default": "none"
+    },
+    "decorationButton": {
+      "type": "string",
+      "default": "none"
+    },
+    "lineHeightButton": {
+      "type": "number",
+      "default": 20.8
+    },
+    "letterSpacingButton": {
+      "type": "number",
+      "default": 1
+    },
+    "sizeButton2Tablet": {
+      "type": "number",
+      "default": 16
+    },
+    "sizeButton2Mobile": {
+      "type": "number",
+      "default": 16
+    },
+    "pxButton2": {
+      "type": "string",
+      "default": "px"
+    },
+    "weightButton2": {
+      "type": "string",
+      "default": "600"
+    },
+    "trasformButton2": {
+      "type": "string",
+      "default": "none"
+    },
+    "decorationButton2": {
+      "type": "string",
+      "default": "none"
+    },
+    "lineHeightButton2": {
+      "type": "number",
+      "default": 20.8
+    },
+    "letterSpacingButton2": {
+      "type": "number",
+      "default": 1
+    },
+    "durationAnimationClose": {
+      "type": "number",
+      "default": 500
+    }
+  }
+}

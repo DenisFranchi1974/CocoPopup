@@ -28,9 +28,6 @@ if (cocopopup_plugin_analytics_is_active()) {
 
     // Url
 
-    // Support
-    $url_support = 'https://wordpress.org/support/plugin/cocopopup/';
-    $sanitized_url_support = esc_url($url_support);
     // Community
     $url_community = 'https://www.wpcocoblock.com/community/index.php';
     $sanitized_url_community = esc_url($url_community);
@@ -57,7 +54,7 @@ if (cocopopup_plugin_analytics_is_active()) {
                 <h1><?php echo esc_html($welcome_message) . ', ' . esc_html($dashboard_message); ?></h1>
             </div>
             <div class="cocopopup-menu">
-                <p style="text-decoration:underline;font-weight:bold"><?php esc_html_e('V 1.0.3','cocopopup')?></p> 
+                <p style="text-decoration:underline;font-weight:bold"><?php esc_html_e('V 1.0.2','cocopopup')?></p> 
                 <button id="theme-toggle">
                     <span class="theme-icon" id="sun-icon">&#9728;</span> <!-- Sole -->
                     <span class="theme-icon" id="moon-icon">&#9790;</span> <!-- Luna -->
@@ -87,7 +84,7 @@ if (cocopopup_plugin_analytics_is_active()) {
                             <span class="dashicons dashicons-star-filled"></span>
                         </div>
                     </a>
-                    <a href="<?php echo esc_url($sanitized_url_support); ?>" target="_blank">
+                    <a href="<?php echo esc_url($sanitized_url_community); ?>" target="_blank">
                         <div class="content two">
                             <h4><?php esc_html_e( 'Support', 'cocopopup' )?></h4>
                             <span class="dashicons dashicons-sos"></span>
